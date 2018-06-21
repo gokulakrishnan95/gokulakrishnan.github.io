@@ -1,0 +1,305 @@
+html,
+body {
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family:HelveticaLTStd-Bold;
+    src: url(../fonts/HelveticaLTStd-Bold.otf)
+}
+@font-face {
+    font-family:HelveticaLTStd-Light;
+    src: url(../fonts/HelveticaLTStd-Light.otf)
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    font-weight: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 79px;
+    box-shadow: 0 0 30px 0 rgba(74, 85, 137, 0.2);
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+    z-index: 1;
+}
+
+.menu ul {
+    display: flex;
+    display: -webkit-flex;
+    font-family:HelveticaLTStd-Bold;
+}
+
+.menu ul li {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #6d6e71;
+    margin-left: 24px;
+}
+
+.contact_button {
+    width: 116px;
+    height: 30px;
+    background-color: #66c6b9;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.section1 {
+    background: url(../images/duru-bgnd.png);
+    background-size: 80%;
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+    /* padding-top: 80px; */
+}
+.container1 h1{
+    color:#212c3c;
+    font-size: 86px;
+    font-family:HelveticaLTStd-Bold;
+    line-height: 0.8;
+}
+.h1-span1{
+    font-size: 60px;
+    color:#212c3c;
+    font-family: HelveticaLTStd-Light;
+}
+.h1-span2{
+    display: block;
+}
+.container1 p{
+    font-family: HelveticaLTStd-Light;
+    color:#212c3c;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.container1 p span{
+    font-family:HelveticaLTStd-Bold;
+}
+.container2 {
+    width: 285px;
+    padding: 38px;
+    box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.13);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.container2 form h3 {
+    font-size: 16px;
+    font-family:HelveticaLTStd-Bold;
+
+  color: #6d6e71;
+}
+
+.container2 form p {
+    margin-top: 10px;
+    margin-bottom:30px;
+    font-size: 13px;
+    font-family: HelveticaLTStd-Light;
+  
+    color: #6d6e71;
+}
+
+  
+.container2 form input {
+    font-family: HelveticaLTStd-Light;
+    width: 100%;
+    height: 38px;
+    border-radius: 19px;
+    text-align: center;
+    color: #939598;
+    font-size: 13px;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.button1{
+    width: 100%;
+    height: 38px;
+    border-radius: 19px;
+    color:#66c6b9;
+    background:#ffffff;
+    border: solid 1px #66c6b9;
+}
+.content{
+    width: calc(100% - 252px);
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.contact-us{
+    width: 150px;
+    height: 38px;
+    border-radius: 19px;
+    color:#ffffff;
+    background:#66c6b9;
+    border: solid 1px #66c6b9;
+    font-family:HelveticaLTStd-Bold;
+    font-size: 21px;
+    margin-top: 60px;
+}
+.section2{
+    background: url(../images/duru-workplace.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.section2_container1 h2{
+    font-family:HelveticaLTStd-Bold;
+    color:#ffffff;
+    font-size: 70px;
+    letter-spacing: -1.4px;
+    line-height: 1;
+    padding-top: 40px;
+
+}
+.section2_container1 h2 span{
+    font-family:HelveticaLTStd-Light;
+   display: block;
+
+
+}
+.section2_container2{
+    padding-left: 180px;
+}
+.section2_container2 h3{
+    font-family:HelveticaLTStd-Bold;
+    letter-spacing: -2.6px;
+    color:#ffffff;
+    line-height: 1;
+    font-size: 60px;
+}
+.section3_container1 h2{
+    font-family:HelveticaLTStd-Bold;
+
+    color:#212c3c;
+    line-height: 1;
+    font-size: 66px;
+   
+}
+.section2_container2 p {
+    font-family:HelveticaLTStd-Light;
+    font-size: 42px;
+    color: #fafafa;
+  }
+  .service_cards{
+      display: flex;
+  }
+  .card{
+    max-width:290px;
+    height: 420px;
+    position: relative;
+    margin: 0 4px;
+    color:#ffffff;
+  }
+  .card img{
+    width:100%;
+    height: 420px;
+    object-fit: contain;
+    
+  }
+  .card h4{
+      position: absolute;
+      top:20px;
+      font-size: 24px;
+      font-family:HelveticaLTStd-Bold;
+      letter-spacing: 0.6px;
+      text-align: center;
+      width: 100%;
+      
+  }
+  .card p{
+    font-family:HelveticaLTStd-Light;
+    position: absolute;
+    text-align: center;
+    top:50px;
+    color: #fefefe;
+   
+    width: 100%;
+    padding: 0 22px;
+}
+.section4 {
+    background: url(../images/philosophy.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.section4_container1 h3{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 65px;
+    line-height: 1;
+   
+    text-align: left;
+    color: #212c3c;
+}
+.section4_container1 p{
+    font-family: HelveticaLTStd-Light;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #212c3c;
+    margin-top: 70px;
+    font-size: 40px;
+    width: 425px;
+}
+.section4_container1 p span{
+    font-family:HelveticaLTStd-Bold;
+    text-transform: uppercase;
+}
+.section4_container2 h4{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 65px;
+ 
+    line-height: 1;
+  
+    text-align: right;
+    color: #ffffff;
+}
+.section4_container2 h5{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 42px;
+  
+    line-height:1;
+  
+    text-align: right;
+    color: #ffffff;
+    margin-top: 28px;
+}
+.section4_container2 p{
+   
+    font-size: 26px;
+    font-family: HelveticaLTStd-Light;
+    line-height: 1.26;
+    letter-spacing: 0.5px;
+    text-align: right;
+    color: #ffffff;
+}
