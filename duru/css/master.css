@@ -14,6 +14,29 @@ body {
     font-family:HelveticaLTStd-Light;
     src: url(../fonts/HelveticaLTStd-Light.otf)
 }
+@font-face {
+    font-family:HelveticaLTStd-LightCond;
+    src: url(../fonts/HelveticaLTStd-LightCond.otf)
+}
+@font-face {
+    font-family:HelveticaLTStd-Roman;
+    src: url(../fonts/HelveticaLTStd-Roman.otf)
+}
+@font-face {
+    font-family:HelveticaLTStd-Comp;
+    src: url(../fonts/HelveticaLTStd-Comp.otf)
+}
+@font-face {
+    font-family:HelveticaLTStd-Cond;
+    src: url(../fonts/HelveticaLTStd-Cond.otf)
+}
+@font-face {
+    font-family:HelveticaLTStd-BlkCond;
+    src: url(../fonts/HelveticaLTStd-BlkCond.otf)
+}
+
+
+
 h1,h2,h3,h4,h5,h6,p{
     margin:0;
     font-weight: inherit;
@@ -303,3 +326,543 @@ ul {
     text-align: right;
     color: #ffffff;
 }
+.section5{
+    background: url(../images/duru-ceo-msg.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.section5_container1{
+    width: 524px;;
+}
+.section5_container1 h3{
+  
+    font-family: HelveticaLTStd-Light;
+    font-size: 40px;
+    text-align: left;
+    color: #6d6e71;
+}
+.section5_container1 p{
+    margin-top: 26px;
+    font-family: HelveticaLTStd-Light;
+    font-size: 18px;
+  
+    text-align: left;
+    color: #6d6e71;
+}
+.service_section1{
+    background: url(../images/duru-bgnd.png);
+    background-size: 80%;
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+}
+.service_section1 .content{
+    align-items: center;
+}
+.service_container1{
+    width: 500px;
+}
+.service_container1 h1{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 88px;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #212c3c;
+    line-height: 1;
+}
+.service_container1 h1 span{
+    font-family: HelveticaLTStd-Light;
+    display: block;
+}
+.service_container1 p{
+   
+    font-family: HelveticaLTStd-Light;
+    font-size: 36px;
+    text-align: left;
+    color: #212c3c;
+    margin-top: 15px;
+}
+.service_container2 img {
+    width: 311px;
+    
+    object-fit: contain;
+  }
+  .service_section2{
+    background: url(../images/duru-ctq.png);
+    background-size: 80%;
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+  }
+  .service_section2 .content{
+      justify-content:flex-end;
+  }
+  .service_section2_container1{
+  width: 51%;
+  }
+  .service_section2_container1 h2{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 66px;
+    text-align: right;
+    color: #212c3c;
+    padding-top: 20px;
+  }
+  .service_section2_container1 h2 span{
+    font-family: HelveticaLTStd-Light;
+    font-size: 36px;
+    display: block;
+  }
+  .service_section2_container1-para1 {
+  
+    font-family:HelveticaLTStd-LightCond;
+    font-size: 32px;
+     text-align: right;
+    color: #212c3c;
+    margin-top: 50px;
+  }
+  .service_section2_container1-para2{
+  
+    font-family:HelveticaLTStd-Roman;
+    font-size: 46px;
+     text-align: right;
+    color: #212c3c;
+    padding-right: 15px;
+  }
+
+  .service_section2_container1-para3{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 62px;
+    text-align: left;
+    color: #6d6e71;
+  }
+  .service_section2_container1-para3 span{
+    
+    font-family: HelveticaLTStd-Roman;
+    font-size: 32px;
+    text-align: center;
+    color: #212c3c;
+    height: 60px;
+    position: absolute;
+    margin-left: 10px;
+  }
+  .service_section2_container1-para4{
+   
+    font-family: HelveticaLTStd-Light;
+    font-size: 50px;
+     text-align: left;
+    color: #212c3c;
+  }
+
+  .service_section2_container1-para4 span{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 32px;
+    
+    text-align: left;
+    color: #6d6e71;
+  }
+  .service_section2_container1-para5{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 24px;
+     text-align: right;
+    color: #212c3c;
+    margin-right: 80px;
+  }
+  .start-hiring-button{
+    width: 208px;
+    height: 36px;
+    background-color: #ffffff;
+    border: solid 1px #66c6b9;
+    font-family:HelveticaLTStd-Bold;
+    font-size: 12px;
+     text-align: center;
+    color: #66c6b9;
+    border-radius: 18px;    
+    margin-top: 50px;
+    float: right;
+  }
+  .service_section3{
+    background: url(../images/philosophy.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+  }
+  .service_section3_container1 h2{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 60px;
+margin-top: 40px;
+    text-align: left;
+    color: #212c3c;
+  }
+  .service_section3_container1 h2 img{
+    height: 46px;
+    vertical-align: middle;
+}    
+  .service_section3_container1 p{
+    font-size: 36px;
+   letter-spacing: -0.8px;
+    color: #212c3c;
+    font-family:HelveticaLTStd-Bold;
+    width: 82%;
+    margin-top: 90px;
+  }
+ .service_section3_container1 .span1{
+    font-size: 22px;
+    font-family: HelveticaLTStd-Light;
+  }
+  .service_section3_container1 .span2{
+    font-size: 32px;
+    font-family: HelveticaLTStd-Light;
+    display: block;
+   
+  }
+  .service_section3_container1 .span3{
+    font-size: 22px;
+    font-family: HelveticaLTStd-Light;
+    display: block;
+    margin: 12px 0;
+  }
+  .service_section3_container2{
+      width: 48%;
+  }
+  .service_section3_container2 img{
+    width: 660px;
+    margin-top: 150px;
+    margin-left: -100px;
+  }
+  .service_section4{
+    background: url(../images/ipa.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+  }
+  .service_section4_b{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .service_section4_a{
+      width:100%;
+  }
+  .service_section4_subcontainer1{
+     width: 330px;
+      display: flex;
+      margin-top: 50px;
+  }
+  .service_section4_div{
+      margin-left: 15px;
+  }
+  .service_section4_subcontainer1 h4 {
+    font-family:HelveticaLTStd-Bold;
+    font-size: 22px;
+   color: #222c3c;
+  }
+  .service_section4_subcontainer1 p{
+    font-family: HelveticaLTStd-Roman;
+    font-size: 16px;
+    color: #222c3c;
+    }
+  .service_section4 h2{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 66px;
+    width: 100%;
+    color: #222c3c;
+  }
+  .service_section4_subcontainer2 h4{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 22px;
+    color: #222c3c;
+  }
+  .service_section4_subcontainer2 p{
+    font-family: HelveticaLTStd-Roman;
+    font-size: 22px;
+    color: #222c3c;
+  }
+  .service_section4_subcontainer2{
+      margin-top: 100px;
+      width: 330px;
+      text-align: center;
+  }
+  .service_section5{
+    background: url(../images/duru-benefits.png);
+    background-size: 90%;
+    background-position: 0%;
+    background-repeat: no-repeat;
+  }
+  .para1{
+    font-family: HelveticaLTStd-Light;
+    font-size: 34px;
+    letter-spacing: -1.4px;
+    text-align: left;
+    color: #222c3c;
+  }
+  .para2{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    text-align: center;
+    color: #6d6e71;
+    float: right;
+  }
+  .para3{
+      clear: both;
+    font-family: HelveticaLTStd-Light;
+    font-size: 30px;
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #222c3c;
+  }
+  .para4 {
+    font-family:HelveticaLTStd-Comp;
+    font-size: 36px;
+    text-align: right;
+    color: #222c3c;
+  }
+  .para4 span{
+    font-family:HelveticaLTStd-Cond;
+    font-size: 26px;
+    font-weight: bold;
+  margin-right: 25px;
+    letter-spacing: -1.6px;
+    text-align: center;
+    color: #222c3c;
+  }
+  .para5{
+    display: flex;
+  }
+  .para5_span1{
+    font-family: HelveticaLTStd-Light;
+    font-size: 38px;
+    text-align: center;
+    color: #6d6e71;
+    display: inline-block;
+    width: 50%;
+    line-height: 1;
+    margin-top: 12px;
+  }
+  .para5_span2{
+    font-family: HelveticaLTStd-Light;
+    font-size: 22px;
+     text-align: center;
+    color: #222c3c;
+    display: inline-block;
+    width: 50%;
+  }
+  .para6 {
+    font-family: HelveticaLTStd-BlkCond;
+    font-size: 30px;
+    text-align: center;
+    color: #222c3c;
+    line-height: 1;
+    float: right;
+    margin-top: -25px;
+  }
+  .service_section5_container1,.service_section5_container2{
+      width: 50%;
+  }
+  .clearfix{
+      clear: both;
+  }
+  .service_section5_container1 h2 {
+    font-family:HelveticaLTStd-Bold;
+    font-size: 66px;
+    line-height: 1;
+    text-align: left;
+    color: #ffffff;
+  }
+  .service_section5_container1 h2 span {
+    font-size: 88px;
+    line-height: 1;
+  }
+  .service_section6{
+    background: url(../images/legal.png);
+    background-size: 100%;
+    background-position: 0%;
+    background-repeat: no-repeat;
+  }
+  .service_section6_container1{
+      width: 55%;
+  }
+  .service_section6_container1 h3{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 66px;
+    line-height: 1;
+    color: #222c3c;
+    width: 80%;
+    margin-top: 70px;
+  }
+  .service_section6_para1{
+    font-family: HelveticaLTStd-Light;
+    font-size: 24px;
+    text-align: left;
+    color: #222c3c;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 85%;
+  }
+  .service_section6_para2,.service_section6_para3,.service_section6_para4,.service_section6_para5,.service_section6_para6{
+    font-family:HelveticaLTStd-Bold;
+    font-size: 34px;
+    text-align: right;
+    color: #455874;
+  }
+  .service_section6_para2{
+    padding-right: 100px;
+  }
+  .service_section6_para3{
+    padding-right: 75px;
+}
+.service_section6_para4{
+    padding-right: 45px;
+    
+}
+.service_section6_para5{
+    padding-right: 20px;
+  
+
+}
+.service_section6_para6{
+    padding-right: 0px;
+}
+.avail-services{
+    width: 208px;
+    height: 36px;
+    background-color: #ffffff;
+    border: solid 1px #66c6b9;
+    font-family: HelveticaLTStd-Bold;
+    font-size: 12px;
+    text-align: center;
+    color: #66c6b9;
+    border-radius: 18px;
+    margin-top: 50px;
+    float: right;
+    margin-right: -40px;
+
+}
+button{
+    outline: none;
+}
+.service_section4_subcontainer4{
+    width: 510px;
+    display: flex;
+    margin-top: 50px;
+}
+.service_section4_subcontainer4 h4 {
+    font-family:HelveticaLTStd-Bold;
+    font-size: 22px;
+   color: #222c3c;
+  }
+  .service_section4_subcontainer4 p{
+    font-family: HelveticaLTStd-Roman;
+    font-size: 16px;
+    color: #222c3c;
+    }
+    .service_section7{
+        background: url(../images/branding.png);
+        background-size: 100%;
+        background-position: 0%;
+        background-repeat: no-repeat; 
+    }
+    .service_section7_container1{
+        width: 50%;
+    }
+    .service_section7_container2{
+        width: 50%;
+    }
+    .service_section7_container2 h3{
+        font-family:HelveticaLTStd-Bold;
+        font-size: 66px;
+        text-align: left;
+        color: #212c3c;
+        padding-left: 100px;
+    }
+    .service_section7_para1{
+      
+  font-size: 24px;
+  font-family: HelveticaLTStd-Light;
+  text-align: left;
+  color: #222c3c;
+  padding-left: 80px;
+  margin-top: 24px;
+  margin-bottom: 70px;
+    }
+    .service_section7_para2,.service_section7_para3,.service_section7_para4,.service_section7_para5{
+        font-family:HelveticaLTStd-Bold;
+  font-size: 40px;
+  text-align: left;
+  color: #455874;
+    }
+    .service_section7_para2{
+        padding-left: 45px;
+    }
+    .service_section7_para3{
+        padding-left: 30px;
+    }
+    .service_section7_para4{
+        padding-left: 15px;
+    }
+    .service_section7_para5{
+        padding-left: 0px;
+    }
+    .create_new{
+        width: 208px;
+        height: 36px;
+        background-color: #ffffff;
+        border: solid 1px #66c6b9;
+        font-family: HelveticaLTStd-Bold;
+        font-size: 12px;
+        text-align: center;
+        color: #66c6b9;
+        border-radius: 18px;
+        margin-top: 50px;
+        float: left;
+        margin-left: -40px;
+    }
+    .service_section8{
+        background: url(../images/csr.png);
+        background-size: 100%;
+        background-position: 0%;
+        background-repeat: no-repeat; 
+    }
+    .service_section7_container1 h3{
+        font-family: HelveticaLTStd-Bold;
+  font-size: 66px;
+ 
+  text-align: left;
+  color: #212c3c;
+    }
+    .service_section7_container1 h4{
+    font-family: HelveticaLTStd-Light;
+  font-size: 32px;
+   text-align: left;
+  color: #1e2633;
+  margin-top: 20px;
+    }
+    .service_section7_container1 p{
+        font-family: HelveticaLTStd-Light;
+        font-size: 18px;
+        text-align: left;
+        color: #1e2633;
+        margin-top: 60px;
+    }
+    .service_section7_container1 p span{
+        font-family: HelveticaLTStd-Bold;
+        display: block;
+    }
+    .contribute{
+        width: 208px;
+        height: 36px;
+        background-color: #ffffff;
+        border: solid 1px #66c6b9;
+        font-family: HelveticaLTStd-Bold;
+        font-size: 12px;
+        text-align: center;
+        color: #66c6b9;
+        border-radius: 18px;
+        margin-top: 40px;
+        float: left;
+      
+    }
+    .service_section9 h3{
+        
+    }

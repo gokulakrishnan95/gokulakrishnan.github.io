@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/master.css" />
     <link rel="stylesheet" href="css/jquery.fullpage.css">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,7 +46,7 @@
                         <a href="">Home</a>
                     </li>
                     <li>
-                        <a href="">Services</a>
+                        <a href="services.html">Services</a>
                     </li>
                     <li>
                         <a href="">Login</a>
@@ -166,21 +166,108 @@
                     </div>
                 </div>
             </section>
-            <!-- <section class="section section5">
+            <section class="section section5">
                 <div class="content">
                     <div class="section5_container1">
+                        <h3>CEO Message</h3>
+                        <p> Sustainable business growth is indispensable when it comes to co-prosperity. To accomplish this goal,
+                            Duru Cooperationembodies new features and provides reliable services for the success of our
+                            clients.
+                        </p>
+                        <p> Based on our own experience as a client, we understand the needs of a company in a foreign country.
+                            Keeping this in mind, we have improved the existing work culture,through our online platforms.
+                            The Duruper Recruitment System and Duru ERP empower us to create great workplaces for our clients
+                            in India.
+                        </p>
+                        <p> We are sincerely excited to expand our contribution to the successful business of our partners and
+                            wellbeing of the Indian society.
+                        </p>
+
+
                     </div>
-                    <div class="section5_container1">
+                    <div class="section5_container2">
                     </div>
                 </div>
 
-            </section> -->
+            </section>
         </div>
     </div>
 
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQG86PLLfQqtZV2vfXurB9UpuPeDK7f5o"></script>
 
+    <script>
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            var mapOptions = {
+                zoom: 14,
+                scrollwheel: false,
+                draggable: false,
+
+                center: new google.maps.LatLng(12.91221384, 77.6306088), // Plash
+
+
+                styles: [{
+                    "featureType": "all",
+                    "elementType": "all",
+                    "stylers": [{
+                        "hue": "#ff0000"
+                    }, {
+                        "saturation": -100
+                    }, {
+                        "lightness": -30
+                    }]
+                }, {
+                    "featureType": "all",
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                        "color": "#ffffff"
+                    }]
+                }, {
+                    "featureType": "all",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [{
+                        "color": "#353535"
+                    }]
+                }, {
+                    "featureType": "landscape",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#656565"
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#505050"
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "color": "#808080"
+                    }]
+                }, {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#454545"
+                    }]
+                }]
+            };
+
+            var mapElement = document.getElementsByClassName('contact-map')[0];
+
+            var map = new google.maps.Map(mapElement, mapOptions);
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(12.9297657, 77.6306088),
+                map: map,
+                title: 'Plash'
+            });
+        }
+    </script>
 
 
 </body>
