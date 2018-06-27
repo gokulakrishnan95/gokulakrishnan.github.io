@@ -13,7 +13,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="js/custom.js"></script>
+   
+
     <script>
         $(document).ready(function () {
             $('#fullpage').fullpage({
@@ -190,6 +191,47 @@
                 </div>
 
             </section>
+            <section class="section section6">
+                    <div class="content">
+                        <div class="section6_container1">
+                            <h3>Contact</h3>
+                            <div>
+                                   
+                                <p>   No. 7 & 8, Shakthi Nagar Main Road, Horamavu,<br> ORR Banaswadi, Bengaluru,<br> karnataka, India-560043</p>
+                            </div>
+                            <div><p>
+                                    
+                                <a href="">+91-80-4371-4311</a> / <a href="">+82-70-4045-3215</a>
+                            </p>
+                            </div>
+                            <div><p>
+                                  
+                                    <a href="mailto:info@durucooperation.com">info@durucooperation.com</a></p>
+                                </div>
+                                <div class="contact-map">
+                                    </div>
+                            <div class="social-icons">
+                                   <a href=""> <i class="fa fa-twitter " aria-hidden="true"></i></a>
+                                   <a href=""> <i class="fa fa-facebook " aria-hidden="true"></i></a>
+                                   <a href=""><i class="fa fa-behance " aria-hidden="true"></i></a>
+                                   <a href="">  <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                   <a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="section6_container2">
+                            <form action="">
+                                <input type="text" placeholder="Name*" class="section6_input">
+                                <input type="text" placeholder="Company*" class="section6_input section6_input1">
+                                <input type="text" placeholder="Position*"  class="section6_input section6_input2">
+                                <input type="text" placeholder="Mobile*"  class="section6_input section6_input1">
+                                <input type="email" placeholder="Email*"  class=" section6_input section6_input2">
+                                <input type="text" placeholder="Subject" class="section6_input">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                <button class="send">Send</button>
+                            </form>
+                            </div>
+                        </div>
+                        </section>
         </div>
     </div>
 
@@ -198,75 +240,31 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQG86PLLfQqtZV2vfXurB9UpuPeDK7f5o"></script>
 
     <script>
-        google.maps.event.addDomListener(window, 'load', init);
+      
+      google.maps.event.addDomListener(window, 'load', init);
 
-        function init() {
-            var mapOptions = {
-                zoom: 14,
-                scrollwheel: false,
-                draggable: false,
+function init() {
+       var mapOptions = {
+           zoom: 14,
+        scrollwheel: false,
+        draggable: false,
 
-                center: new google.maps.LatLng(12.91221384, 77.6306088), // Plash
+        center: new google.maps.LatLng(13.025394, 77.667617), // Plash
 
 
-                styles: [{
-                    "featureType": "all",
-                    "elementType": "all",
-                    "stylers": [{
-                        "hue": "#ff0000"
-                    }, {
-                        "saturation": -100
-                    }, {
-                        "lightness": -30
-                    }]
-                }, {
-                    "featureType": "all",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#ffffff"
-                    }]
-                }, {
-                    "featureType": "all",
-                    "elementType": "labels.text.stroke",
-                    "stylers": [{
-                        "color": "#353535"
-                    }]
-                }, {
-                    "featureType": "landscape",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#656565"
-                    }]
-                }, {
-                    "featureType": "poi",
-                    "elementType": "geometry.fill",
-                    "stylers": [{
-                        "color": "#505050"
-                    }]
-                }, {
-                    "featureType": "poi",
-                    "elementType": "geometry.stroke",
-                    "stylers": [{
-                        "color": "#808080"
-                    }]
-                }, {
-                    "featureType": "road",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#454545"
-                    }]
-                }]
-            };
+        styles: [{"featureType":"all","elementType":"all","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":-30}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"color":"#353535"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#656565"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#505050"}]},{"featureType":"poi","elementType":"geometry.stroke","stylers":[{"color":"#808080"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#454545"}]}]
+    };
 
-            var mapElement = document.getElementsByClassName('contact-map')[0];
+    var mapElement = document.getElementsByClassName('contact-map')[0];
 
-            var map = new google.maps.Map(mapElement, mapOptions);
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(12.9297657, 77.6306088),
-                map: map,
-                title: 'Plash'
-            });
-        }
+    var map = new google.maps.Map(mapElement, mapOptions);
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(13.025394, 77.667617),
+        map: map,
+        title: 'Duru cooperation'
+    });
+}
+
     </script>
 
 
