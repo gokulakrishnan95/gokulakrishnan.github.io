@@ -13,7 +13,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-   <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
 
     <script>
         $(document).ready(function () {
@@ -21,52 +21,68 @@
                 // scrollOverflow: true,
                 // scrollBar: true,
                 verticalCentered: true,
-                responsiveWidth:425,
-                anchors: ['home', 'home-slide1','aboutus','aboutus-slide1','aboutus-slide2','aboutus-slide3', 'recruitment','recruitment-slide1','recruitment-slide2','recruitment-slide3', 'legalcompliance','legalcompliance-slide1','branding','csr','csr-slide1','csr-slide2','contactus'],
-				menu: '#top-menu',
+                responsiveWidth: 425,
+                anchors: ['home', 'home-slide1', 'aboutus', 'aboutus-slide1', 'aboutus-slide2',
+                    'aboutus-slide3', 'recruitment', 'recruitment-slide1', 'recruitment-slide2',
+                    'recruitment-slide3', 'legalcompliance', 'legalcompliance-slide1', 'branding',
+                    'csr', 'csr-slide1', 'csr-slide2', 'contactus'
+                ],
+                menu: '#top-menu',
                 // lockAnchors:true
-                afterLoad: function(anchorLink, index) {
+                afterLoad: function (anchorLink, index) {
                     history.pushState(null, null, "index.html");
                 }
             });
-        //     $(document).on('click', '#recruitment', function(){
-        // $.fn.fullpage.silentMoveTo('page2');
-        // });
+            //     $(document).on('click', '#recruitment', function(){
+            // $.fn.fullpage.silentMoveTo('page2');
+            // });
             $('.scroll-link').click(function (e) {
                 $('body,html').animate({
                     scrollTop: $('#sec1').offset().top - 20
                 }, 700);
             });
-            $("#top-menu li").click(function(){
-    $(window).resize();
-});
-$(window).on('load', function() {
-    var wow = new WOW(
-        {
-            boxClass:     'wow',
-            animateClass: 'animated',
-            offset:       0,
-            mobile:       true,
-            live:         true,
-            callback:     function(box) {
+            $("#top-menu li").click(function () {
+                $(window).resize();
+            });
+            $(window).on('load', function () {
+                var wow = new WOW({
+                    boxClass: 'wow',
+                    animateClass: 'animated',
+                    offset: 0,
+                    mobile: true,
+                    live: true,
+                    callback: function (box) {
 
-            },
-            scrollContainer: null
+                    },
+                    scrollContainer: null
+                });
+                wow.init();
+            });
+            $(".menu ul li").click(function () {
+                $('.menu ul').removeClass('width_100');
+                $('body').removeClass('has-mobile-navigation-open');
+            });
+            $(".start-hiring-button").click(function () {
+                $('#services-popup').addClass('display-block');
+            });
+            $("#services-popup .close-icon").click(function () {
+                $('#services-popup').removeClass('display-block');
+            });
+            $(".start-hiring-button").click(function () {
+                $('#services-popup').addClass('display-block');
+            });
+            $("#services-popup .close-icon").click(function () {
+                $('#services-popup').removeClass('display-block');
+            });
+
+            
+        });
+
+        function toggleDemo() {
+            $('body').toggleClass('has-mobile-navigation-open');
+            $('.menu ul').toggleClass('width_100');
+
         }
-    );
-    wow.init();
-});
-$(".menu ul li").click(function(){
-    $('.menu ul').removeClass('width_100');
-    $('body').removeClass('has-mobile-navigation-open');
-});
-    });
-    
-function toggleDemo(){
-    $('body').toggleClass('has-mobile-navigation-open');
-    $('.menu ul').toggleClass('width_100');
-  
-}
     </script>
 
 
@@ -75,37 +91,38 @@ function toggleDemo(){
 <body class="landingpage">
 
     <div class="main homepage_header">
-        <!-- <div id="header" class="content"></div> -->
         <header class="header">
             <div>
-                <img src="images/logo.png" alt="Duru cooperation">
+                <a href="#home">
+                    <img src="images/duru-logo.svg" alt="Duru cooperation" class="logo">
+                </a>
             </div>
-            
-    
-            <div class="menu"  >
+
+
+            <div class="menu">
                 <ul id="top-menu">
-                    <li  data-menuanchor="home" class="home">
+                    <li data-menuanchor="home" class="home">
                         <a href="#home">Home</a>
                     </li>
-                    <li  data-menuanchor="aboutus"  class="aboutus">
+                    <li data-menuanchor="aboutus" class="aboutus">
                         <a href="#aboutus">About us</a>
                     </li>
-                    <li  data-menuanchor="recruitment"  class="recruitment">
+                    <li data-menuanchor="recruitment" class="recruitment">
                         <a href="#recruitment">Recruitment</a>
                     </li>
-                    <li  data-menuanchor="legalcompliance"  class="legalcompliance">
+                    <li data-menuanchor="legalcompliance" class="legalcompliance">
                         <a href="#legalcompliance">Legal compliance</a>
                     </li>
-                    <li  data-menuanchor="branding"  class="branding">
+                    <li data-menuanchor="branding" class="branding">
                         <a href="#branding">Branding</a>
-                    </li>  
-                    <li  data-menuanchor="csr"  class="csr">
+                    </li>
+                    <li data-menuanchor="csr" class="csr">
                         <a href="#csr">CSR</a>
                     </li>
                     <li>
                         <a href="#">Login</a>
                     </li>
-                    <li  data-menuanchor="contactus" class="contactus">
+                    <li data-menuanchor="contactus" class="contactus">
                         <a href="#contactus" class="contact_button">Contact us</a>
                     </li>
                 </ul>
@@ -117,7 +134,7 @@ function toggleDemo(){
             </div>
         </header>
         <div id="fullpage">
-            <section class="section section1"  >
+            <section class="section section1">
                 <div class="content">
                     <div class="container1">
                         <h1 class="wow animated fadeInLeft" data-wow-delay="0.2s">
@@ -128,7 +145,7 @@ function toggleDemo(){
                         <p class="wow animated fadeInLeft" data-wow-delay="0.25s">
                             <span>Duru</span> is a word meaning
                             <span>"limitless"</span> in Korean</p>
-                        <button class="wow animated fadeInLeft contact-us" data-wow-delay="0.25s" >
+                        <button class="wow animated fadeInLeft contact-us" data-wow-delay="0.25s">
                             <a href="">Contact us</a>
                         </button>
                     </div>
@@ -146,7 +163,7 @@ function toggleDemo(){
             <section class="section section2">
                 <div class="content">
                     <div class="section2_container1">
-                        <h2 >
+                        <h2>
                             <span>Duru</span>
                             COOPERATION
                         </h2>
@@ -161,7 +178,7 @@ function toggleDemo(){
                 </div>
             </section>
 
-            <section class="section section3" >
+            <section class="section section3">
                 <div class="content">
                     <div class="section3_container1">
                         <h2>Services</h2>
@@ -255,24 +272,21 @@ function toggleDemo(){
                         <h1>
                             Sustainable
                             <span>High Quality
-
                             </span>
                         </h1>
                         <p>
                             We dedicate ourselves to the success of our partners</p>
-
                     </div>
                     <div class="service_container2">
                         <img src="images/duru-services.png" alt="duru cooperation services">
                     </div>
                 </div>
             </section>
-            <section class="section service_section2" >
+            <section class="section service_section2">
                 <div class="content">
 
                     <div class="service_section2_container1">
                         <h2>
-
                             Recruitment
                             <span>
                                 Priorities for clients’ satisfaction </span>
@@ -377,7 +391,6 @@ function toggleDemo(){
                                         </p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -386,7 +399,6 @@ function toggleDemo(){
             <section class="section service_section5">
                 <div class="content">
                     <div class="service_section5_container1">
-
                         <h2>Recruitment
                             <span>Benefits</span>
                         </h2>
@@ -410,7 +422,7 @@ function toggleDemo(){
                     </div>
                 </div>
             </section>
-            <section class="section service_section6" >
+            <section class="section service_section6">
                 <div class="content">
                     <div class="service_section6_container1">
                         <h3>Legal Compliance</h3>
@@ -486,7 +498,7 @@ function toggleDemo(){
                             </div>
                         </div>
             </section>
-            <section class="section service_section7" >
+            <section class="section service_section7">
                 <div class="content">
                     <div class="service_section7_container1">
                     </div>
@@ -501,7 +513,7 @@ function toggleDemo(){
                     </div>
                 </div>
             </section>
-            <section class="section service_section8" >
+            <section class="section service_section8">
                 <div class="content">
                     <div class="service_section7_container1">
                         <h3>CSR Service</h3>
@@ -516,118 +528,234 @@ function toggleDemo(){
             <section class="section service_section9">
                 <div class="content">
                     <div class="service_section9_main">
-                    <h3>CSR Service</h3>
-                    <p class="service_section9_para1">Maximise the outcome of your CSR initiatives with Duru</p>
-                    <div class="service_section9_container">
-                        <div class="service_section9_subcontainer">
+                        <h3>CSR Service</h3>
+                        <p class="service_section9_para1">Maximise the outcome of your CSR initiatives with Duru</p>
+                        <div class="service_section9_container">
+                            <div class="service_section9_subcontainer">
 
-                            <img src="images/csr-services-1.png" alt="Scholarships">
-                            <p class="service_section9_para2 color1">Scholarships</p>
-                            <p class="service_section9_para3">Support meritorious students and lead them to your company</p>
-                        </div>
-                        <div class="service_section9_subcontainer">
+                                <img src="images/csr-services-1.png" alt="Scholarships">
+                                <p class="service_section9_para2 color1">Scholarships</p>
+                                <p class="service_section9_para3">Support meritorious students and lead them to your company</p>
+                            </div>
+                            <div class="service_section9_subcontainer">
 
-                            <img src="images/csr-services-2.png" alt="Talks">
-                            <p class="service_section9_para2">Talks</p>
-                            <p class="service_section9_para3">Connect with potential clients through Duru's interactive seminars</p>
-                        </div>
-                        <div class="service_section9_subcontainer">
+                                <img src="images/csr-services-2.png" alt="Talks">
+                                <p class="service_section9_para2">Talks</p>
+                                <p class="service_section9_para3">Connect with potential clients through Duru's interactive seminars</p>
+                            </div>
+                            <div class="service_section9_subcontainer">
 
-                            <img src="images/csr-services-3.png" alt="Cultural Exchange">
-                            <p class="service_section9_para2">Cultural Exchange</p>
-                            <p class="service_section9_para3">Partake in Duru's cultural exchange events as a valued sponsor</p>
+                                <img src="images/csr-services-3.png" alt="Cultural Exchange">
+                                <p class="service_section9_para2">Cultural Exchange</p>
+                                <p class="service_section9_para3">Partake in Duru's cultural exchange events as a valued sponsor</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </section>
             <section class="section service_section10">
-                    <div class="content">
-                        <div class="service_section10_container1">
-                <h3>Duru <span class="span1">is</span> <span class="span2">satisfaction</span></h3>
-                                <button class="contact-us1">Contact us</button>
+                <div class="content">
+                    <div class="service_section10_container1">
+                        <h3>Duru
+                            <span class="span1">is</span>
+                            <span class="span2">satisfaction</span>
+                        </h3>
+                        <button class="contact-us1">Contact us</button>
+                    </div>
+                    <div class="service_section10_container2">
+                        <img src="images/duru-smile.png" alt="Duru smile">
+
+                    </div>
+                </div>
+            </section>
+            <section class="section section6">
+                <div class="content">
+                    <div class="section6_container1">
+                        <h3>Contact</h3>
+                        <div>
+
+                            <p> No. 7 & 8, Shakthi Nagar Main Road, Horamavu,
+                                <br> ORR Banaswadi, Bengaluru,
+                                <br> karnataka, India-560043</p>
                         </div>
-                        <div class="service_section10_container2">
-                            <img src="images/duru-smile.png" alt="Duru smile">
-                          
+                        <div>
+                            <p>
+
+                                <a href="">+91-80-4371-4311</a> /
+                                <a href="">+82-70-4045-3215</a>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+
+                                <a href="mailto:info@durucooperation.com">info@durucooperation.com</a>
+                            </p>
+                        </div>
+                        <div class="contact-map">
+                        </div>
+                        <div class="social-icons">
+                            <a href="">
+                                <i class="fa fa-twitter " aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-facebook " aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-behance " aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
                         </div>
                     </div>
-                </section>
-            <section class="section section6">
-                    <div class="content">
-                        <div class="section6_container1">
-                            <h3>Contact</h3>
-                            <div>
-                                   
-                                <p>   No. 7 & 8, Shakthi Nagar Main Road, Horamavu,<br> ORR Banaswadi, Bengaluru,<br> karnataka, India-560043</p>
-                            </div>
-                            <div><p>
-                                    
-                                <a href="">+91-80-4371-4311</a> / <a href="">+82-70-4045-3215</a>
-                            </p>
-                            </div>
-                            <div><p>
-                                  
-                                    <a href="mailto:info@durucooperation.com">info@durucooperation.com</a></p>
-                                </div>
-                                <div class="contact-map">
-                                    </div>
-                            <div class="social-icons">
-                                   <a href=""> <i class="fa fa-twitter " aria-hidden="true"></i></a>
-                                   <a href=""> <i class="fa fa-facebook " aria-hidden="true"></i></a>
-                                   <a href=""><i class="fa fa-behance " aria-hidden="true"></i></a>
-                                   <a href="">  <i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                   <a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <div class="section6_container2">
-                            <form action="">
-                                <input type="text" placeholder="Name*" class="section6_input">
-                                <input type="text" placeholder="Company*" class="section6_input section6_input1">
-                                <input type="text" placeholder="Position*"  class="section6_input section6_input2">
-                                <input type="text" placeholder="Mobile*"  class="section6_input section6_input1">
-                                <input type="email" placeholder="Email*"  class=" section6_input section6_input2">
-                                <input type="text" placeholder="Subject" class="section6_input">
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                                <button class="send">Send</button>
-                            </form>
-                            </div>
-                        </div>
-                        </section>
-        </div>
+                    <div class="section6_container2">
+                        <form action="">
+                            <input type="text" placeholder="Name*" class="section6_input">
+                            <input type="text" placeholder="Company*" class="section6_input section6_input1">
+                            <input type="text" placeholder="Position*" class="section6_input section6_input2">
+                            <input type="text" placeholder="Mobile*" class="section6_input section6_input1">
+                            <input type="email" placeholder="Email*" class=" section6_input section6_input2">
+                            <input type="text" placeholder="Subject" class="section6_input">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <button class="send">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            </div>
+            </div>
+<div id="services-popup" class="popup-overlay">
+    <div class="popup">
+        <h3>We'd love to serve you.</h3>
+        <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+        
+    <form>
+            <input type="text" placeholder="Name" class="popup_input">
+            <input type="email" placeholder="Email" class=" popup_input ">
+            <input type="text" placeholder="Phone no" class="popup_input ">
+            <input type="text" placeholder="city" class="popup_input">
+            <button class="form-button">Connect with us</button>
+    </form>
+</div>
+</div>
+<div id="lc-popup" class="popup-overlay">
+        <div class="popup">
+            <h3>Compliance simpler than ever!</h3>
+            <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+            
+        <form>
+                <input type="text" placeholder="Company name or Individual name" class="popup_input">
+                <input type="email" placeholder="Email" class=" popup_input ">
+                <input type="text" placeholder="Phone no" class="popup_input ">
+                <input type="text" placeholder="city" class="popup_input">
+                <button class="form-button">Get in Touch </button>
+        </form>
     </div>
+    </div>
+    <div id="branding-popup" class="popup-overlay">
+            <div class="popup">
+                <h3>Lets get Creative!</h3>
+                <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+                
+            <form>
+                    <input type="text" placeholder="Company name/ Freelancer" class="popup_input">
+                    <input type="email" placeholder="Email" class=" popup_input ">
+                    <input type="text" placeholder="Phone no" class="popup_input ">
+                    <input type="text" placeholder="city" class="popup_input">
+                    <button class="form-button">Get Started</button>
+            </form>
+        </div>
+        </div>
+        <div id="csr-popup" class="popup-overlay">
+                <div class="popup">
+                    <h3>Experience impactful CSR initiatives.</h3>
+                                      <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+                    
+                <form>
+                        <input type="text" placeholder="Company Name" class="popup_input">
+                        <input type="email" placeholder="Email" class=" popup_input ">
+                        <input type="text" placeholder="Phone no" class="popup_input ">
+                        <input type="text" placeholder="city" class="popup_input">
+                        <button class="form-button">Join us </button>
+                </form>
+            </div>
+            </div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQG86PLLfQqtZV2vfXurB9UpuPeDK7f5o"></script>
+
+            <script>
+                google.maps.event.addDomListener(window, 'load', init);
+
+                function init() {
+                    var mapOptions = {
+                        zoom: 14,
+                        scrollwheel: false,
+                        draggable: false,
+
+                        center: new google.maps.LatLng(13.025394, 77.667617), // Plash
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQG86PLLfQqtZV2vfXurB9UpuPeDK7f5o"></script>
+                        styles: [{
+                            "featureType": "all",
+                            "elementType": "all",
+                            "stylers": [{
+                                "hue": "#ff0000"
+                            }, {
+                                "saturation": -100
+                            }, {
+                                "lightness": -30
+                            }]
+                        }, {
+                            "featureType": "all",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "color": "#ffffff"
+                            }]
+                        }, {
+                            "featureType": "all",
+                            "elementType": "labels.text.stroke",
+                            "stylers": [{
+                                "color": "#353535"
+                            }]
+                        }, {
+                            "featureType": "landscape",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#656565"
+                            }]
+                        }, {
+                            "featureType": "poi",
+                            "elementType": "geometry.fill",
+                            "stylers": [{
+                                "color": "#505050"
+                            }]
+                        }, {
+                            "featureType": "poi",
+                            "elementType": "geometry.stroke",
+                            "stylers": [{
+                                "color": "#808080"
+                            }]
+                        }, {
+                            "featureType": "road",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#454545"
+                            }]
+                        }]
+                    };
 
-    <script>
-      
-      google.maps.event.addDomListener(window, 'load', init);
+                    var mapElement = document.getElementsByClassName('contact-map')[0];
 
-function init() {
-       var mapOptions = {
-           zoom: 14,
-        scrollwheel: false,
-        draggable: false,
-
-        center: new google.maps.LatLng(13.025394, 77.667617), // Plash
-
-
-        styles: [{"featureType":"all","elementType":"all","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":-30}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"color":"#353535"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#656565"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#505050"}]},{"featureType":"poi","elementType":"geometry.stroke","stylers":[{"color":"#808080"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#454545"}]}]
-    };
-
-    var mapElement = document.getElementsByClassName('contact-map')[0];
-
-    var map = new google.maps.Map(mapElement, mapOptions);
-    var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(13.025394, 77.667617),
-        map: map,
-        title: 'Duru cooperation'
-    });
-}
-
-    </script>
+                    var map = new google.maps.Map(mapElement, mapOptions);
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(13.025394, 77.667617),
+                        map: map,
+                        title: 'Duru cooperation'
+                    });
+                }
+            </script>
 
 
 </body>
