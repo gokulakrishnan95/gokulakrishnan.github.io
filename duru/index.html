@@ -68,13 +68,30 @@
             $("#services-popup .close-icon").click(function () {
                 $('#services-popup').removeClass('display-block');
             });
-            $(".start-hiring-button").click(function () {
-                $('#services-popup').addClass('display-block');
+            $(".create").click(function () {
+                $('#create-popup').addClass('display-block');
             });
-            $("#services-popup .close-icon").click(function () {
-                $('#services-popup').removeClass('display-block');
+            $("#create-popup .close-icon").click(function () {
+                $('#create-popup').removeClass('display-block');
             });
-
+            $(".avail-services").click(function () {
+                $('#lc-popup').addClass('display-block');
+            });
+            $("#lc-popup .close-icon").click(function () {
+                $('#lc-popup').removeClass('display-block');
+            });
+            $(".create_new").click(function () {
+                $('#branding-popup').addClass('display-block');
+            });
+            $("#branding-popup .close-icon").click(function () {
+                $('#branding-popup').removeClass('display-block');
+            });
+            $(".contribute").click(function () {
+                $('#csr-popup').addClass('display-block');
+            });
+            $("#csr-popup .close-icon").click(function () {
+                $('#csr-popup').removeClass('display-block');
+            });
             
         });
 
@@ -146,18 +163,26 @@
                             <span>Duru</span> is a word meaning
                             <span>"limitless"</span> in Korean</p>
                         <button class="wow animated fadeInLeft contact-us" data-wow-delay="0.25s">
-                            <a href="">Contact us</a>
+                            <a href="#contactus">Contact us</a>
                         </button>
                     </div>
-                    <div class="container2">
-                        <form class="wow animated fadeInLeft" data-wow-delay="0.3s">
+                    <div class="container2 wow animated fadeInLeft" data-wow-delay="0.3s">
+                        <form >
                             <h3>Company Login</h3>
                             <p>Login to your company account</p>
                             <input type="email" placeholder="Email address">
                             <input type="password" placeholder="Password">
                             <button class="button1">Login</button>
                         </form>
+                        <div class="create-account">
+                            <p>Forgot Password?</p>
+                            <p class="create">Create New account</p>
+                        </div>
                     </div>
+                </div>
+                <div class="scroll-down">
+                    <img src="images/scroller-icon.svg" alt="scroller">
+                    <p>Scroll down</p>
                 </div>
             </section>
             <section class="section section2">
@@ -560,7 +585,7 @@
                             <span class="span1">is</span>
                             <span class="span2">satisfaction</span>
                         </h3>
-                        <button class="contact-us1">Contact us</button>
+                        <button class="contact-us1"><a href="#contactus">Contact us</a> </button>
                     </div>
                     <div class="service_section10_container2">
                         <img src="images/duru-smile.png" alt="Duru smile">
@@ -627,61 +652,113 @@
             </section>
             </div>
             </div>
+            <div id="create-popup" class="popup-overlay">
+                    <div class="popup">
+                            <h3>Please inform us your requirements	</h3>
+                            <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+                            
+                        <form>
+                                <input type="text" placeholder="Company name" class="popup_input">
+                                <input type="text" placeholder="Company Type (Head Office or Branch)" class="popup_input">
+                                <input type="text" placeholder="Industry" class="popup_input">
+                                <input type="text" placeholder="country" class="popup_input">
+                                <input type="text" placeholder="Name" class="popup_input">
+                                <input type="text" placeholder="Designation" class="popup_input">
+                                <input type="text" placeholder="Mobile" class="popup_input ">
+                                <input type="email" placeholder="Email" class=" popup_input ">
+                               
+                                                 
+                               <p class="display-none">Your request is registered and the process will be started shortly	</p>
+                                <button class="form-button">Submit</button>
+                        </form>
+                    </div>
+            </div>
 <div id="services-popup" class="popup-overlay">
-    <div class="popup">
-        <h3>We'd love to serve you.</h3>
-        <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-        
-    <form>
-            <input type="text" placeholder="Name" class="popup_input">
-            <input type="email" placeholder="Email" class=" popup_input ">
-            <input type="text" placeholder="Phone no" class="popup_input ">
-            <input type="text" placeholder="city" class="popup_input">
-            <button class="form-button">Connect with us</button>
-    </form>
-</div>
-</div>
-<div id="lc-popup" class="popup-overlay">
         <div class="popup">
-            <h3>Compliance simpler than ever!</h3>
-            <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-            
-        <form>
-                <input type="text" placeholder="Company name or Individual name" class="popup_input">
-                <input type="email" placeholder="Email" class=" popup_input ">
-                <input type="text" placeholder="Phone no" class="popup_input ">
-                <input type="text" placeholder="city" class="popup_input">
-                <button class="form-button">Get in Touch </button>
-        </form>
-    </div>
-    </div>
-    <div id="branding-popup" class="popup-overlay">
-            <div class="popup">
-                <h3>Lets get Creative!</h3>
+                <h3>Please inform us your requirements	</h3>
                 <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
                 
             <form>
-                    <input type="text" placeholder="Company name/ Freelancer" class="popup_input">
+                    <input type="text" placeholder="Company name" class="popup_input">
+                    <input type="text" placeholder="Company Type (Head Office or Branch)" class="popup_input">
+                    <input type="text" placeholder="Industry" class="popup_input">
+                    <input type="text" placeholder="country" class="popup_input">
+                    <input type="text" placeholder="Name" class="popup_input">
+                    <input type="text" placeholder="Designation" class="popup_input">
+                    <input type="text" placeholder="Mobile" class="popup_input ">
                     <input type="email" placeholder="Email" class=" popup_input ">
-                    <input type="text" placeholder="Phone no" class="popup_input ">
+                    <input type="text" placeholder="position" class="popup_input ">
+                    <input type="text" placeholder="Number of Requirement 1 " class="popup_input "> 
+                    <!-- <div>Add</div> -->
+                                     
+                   <p class="display-none">Your request is registered and the process will be started shortly	</p>
+                    <button class="form-button">Submit</button>
+            </form>
+        </div>
+</div>
+
+<div id="lc-popup" class="popup-overlay">
+        <div class="popup">
+                <h3>Please inform us your requirements	</h3>
+                <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+                
+            <form>
+                    <input type="text" placeholder="Company name" class="popup_input">
+                    <input type="text" placeholder="Industry" class="popup_input">
+                    <input type="text" placeholder="Country" class="popup_input">
                     <input type="text" placeholder="city" class="popup_input">
-                    <button class="form-button">Get Started</button>
+                    <input type="text" placeholder="Name" class="popup_input">
+                    <input type="text" placeholder="Designation" class="popup_input">
+                    <input type="text" placeholder="Mobile" class="popup_input ">
+                    <input type="email" placeholder="Email" class=" popup_input ">
+                    <textarea  placeholder="Requirements" name="" id="" cols="30" rows="10"></textarea>
+                  
+                   <p class="display-none">Duru will contact you shortly	</p>
+                    <button class="form-button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div id="branding-popup" class="popup-overlay">
+            <div class="popup">
+                <h3>Please inform us your requirements	</h3>
+                <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+                
+            <form>
+                    <input type="text" placeholder="Company name" class="popup_input">
+                    <input type="text" placeholder="Industry" class="popup_input">
+                    <input type="text" placeholder="Country" class="popup_input">
+                    <input type="text" placeholder="city" class="popup_input">
+                    <input type="text" placeholder="Name" class="popup_input">
+                    <input type="text" placeholder="Designation" class="popup_input">
+                    <input type="text" placeholder="Mobile" class="popup_input ">
+                    <input type="email" placeholder="Email" class=" popup_input ">
+                    <textarea  placeholder="Requirements" name="" id="" cols="30" rows="10"></textarea>
+                  
+                   <p class="display-none">Duru will contact you shortly	</p>
+                    <button class="form-button">Submit</button>
             </form>
         </div>
         </div>
         <div id="csr-popup" class="popup-overlay">
                 <div class="popup">
-                    <h3>Experience impactful CSR initiatives.</h3>
-                                      <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-                    
-                <form>
-                        <input type="text" placeholder="Company Name" class="popup_input">
-                        <input type="email" placeholder="Email" class=" popup_input ">
-                        <input type="text" placeholder="Phone no" class="popup_input ">
-                        <input type="text" placeholder="city" class="popup_input">
-                        <button class="form-button">Join us </button>
-                </form>
-            </div>
+                        <h3>Please inform us your requirements	</h3>
+                        <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
+                        
+                    <form>
+                            <input type="text" placeholder="Company name" class="popup_input">
+                            <input type="text" placeholder="Industry" class="popup_input">
+                            <input type="text" placeholder="Country" class="popup_input">
+                            <input type="text" placeholder="city" class="popup_input">
+                            <input type="text" placeholder="Name" class="popup_input">
+                            <input type="text" placeholder="Designation" class="popup_input">
+                            <input type="text" placeholder="Mobile" class="popup_input ">
+                            <input type="email" placeholder="Email" class=" popup_input ">
+                            <textarea  placeholder="Donation Plan (if any)	" ></textarea>
+                          
+                           <p class="display-none">Duru will contact you shortly	</p>
+                            <button class="form-button">Submit</button>
+                    </form>
+                </div>
             </div>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQG86PLLfQqtZV2vfXurB9UpuPeDK7f5o"></script>
 

@@ -81,7 +81,7 @@ ul {
     overflow-y: scroll;
 }
 .popup{
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
     background: #ffffff;
     padding: 38px;
@@ -93,7 +93,7 @@ ul {
     position: relative;
 }
 .popup_input {
-    width: 100%;
+    width: 49%;
     height: 36px;
     background-color: #efefef;
     border-radius: 18px;
@@ -105,7 +105,7 @@ ul {
     text-align: center;
 }
 .form-button {
-    width: 100%;
+    width: 250px;
     height: 38px;
     border-radius: 19px;
     color: #ffffff;
@@ -115,12 +115,28 @@ ul {
     font-size: 16px;
     margin-top: 0px;
 }
+.popup textarea{
+    width: 100%;
+    height: 100px;
+    background-color: #efefef;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-family: HelveticaLTStd-Light;
+    text-align: left;
+    resize: none;
+}
 .popup h3{
     font-size: 16px;
     font-family: HelveticaLTStd-Bold;
     color: #6d6e71;
     margin-bottom: 20px;
 
+}
+.display-none{
+    display: none;
 }
 .close-icon{
     position: absolute;
@@ -134,11 +150,15 @@ ul {
 .close-icon:hover{
     transform: rotate(180deg);
 }
-#services-popup,#lc-popup,#branding-popup,#csr-popup{
+#services-popup,#lc-popup,#branding-popup,#csr-popup,#create-popup{
     display: none;
 }
 .display-block{
     display: block !important;
+}
+.active .contact_button
+{
+    background: #f3ad1b;
 }
 .mobile-nav-toggle-button {
     -webkit-appearance: none!important;
@@ -165,6 +185,49 @@ ul {
     position: relative;
     margin: 0 auto;
 }
+.create-account{
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    text-align: right;
+    
+    font-size: 13px;
+    font-family: HelveticaLTStd-Light;
+    color: #6d6e71;
+}
+.create-account p{
+    cursor: pointer;
+}
+.create-account p:hover{
+    color:#66c6b9;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+.scroll-down img {
+    width: 32px;
+    height: 48px;
+    object-fit: contain;
+   
+  }
+  .scroll-down p{
+    font-family: HelveticaLTStd-Light;
+   margin-left: 5px;
+    font-size: 16px;
+    font-weight: 300;
+   
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #969696;
+  }
 .mobile-nav-toggle-button .icon-bar-2 {
     margin: 4px auto;
 }
@@ -243,6 +306,7 @@ ul {
     color: #212c3c;
     font-size: 30px;
     margin-top: 20px;
+
 }
 
 .container1 p span {
@@ -250,6 +314,7 @@ ul {
 }
 
 .container2 {
+    position: relative;
     width: 285px;
     padding: 38px;
     box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.13);
@@ -745,7 +810,7 @@ ul {
 .service_section5 {
     background: url(../images/duru-benefits.png);
     background-size: 90%;
-    background-position: 0%;
+    background-position: 0% 70%;
     background-repeat: no-repeat;
 }
 
@@ -1285,7 +1350,7 @@ padding-top: 10px;
 letter-spacing: auto;
 }
 .section2_container2 h3{
-    font-size: 32px;
+    font-size: 22px;
     letter-spacing: 0;
 }
 .section2_container2 {
@@ -1327,13 +1392,13 @@ letter-spacing: auto;
 .card h4 {
   
     /* top: 63px; */
-    font-size: 16px;
+    font-size: 14px;
 }
 .card p {
   
      top: 40px;
    padding: 0;
-    font-size: 14px;
+    font-size: 12px;
 }
 .section4_container1 h3 {
     font-size: 38px;
@@ -2779,15 +2844,34 @@ letter-spacing: auto;
         align-items: end;
     }
 }
-@media(min-width:1025px){
+@media(min-width:1024px){
     .mobile-nav-toggle-button{
         display: none;
     }
 }
-@media (max-width:1024px){
-    /* .menu{
-        display: none;
-    } */
+@media (max-width:1023px){
+    
+    
+.popup {
+    width: 300px;
+}
+.popup_input {
+    width: 100%;}
+    .form-button {
+        width: 100%;
+        height: 38px;
+    }
+    .scroll-down {
+        position: relative;
+        padding-top: 40px;
+        display: flex;
+        padding-left: 25px;
+        padding-bottom: 40px;
+        width: 100%;
+        margin: 0;
+        /* justify-content: center; */
+        align-items: center;
+    }
     .section5{
         background: none;
     }
@@ -2889,4 +2973,21 @@ letter-spacing: auto;
    
     background-size: 90% 100%;
 }
+}
+@media (min-width:1024px) and (max-width:1279px){
+    .content {
+        width: calc(100% - 100px);
+    }    
+    .menu ul li {
+        font-size: 12px;
+      
+        margin-left: 16px;
+    }
+    .fp-tableCell{
+        display: block !important;
+        height: auto !important;
+    }
+
+
+
 }
