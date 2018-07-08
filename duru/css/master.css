@@ -68,7 +68,34 @@ a {
 ul {
     list-style-type: none;
 }
-
+.mobile-nav-toggle-button {
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
+    background: 0 0;
+    display: block;
+    width: 26px;
+    height: 40px;
+    padding: 8px 0;
+    cursor: pointer;
+    border: 0;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+}
+.mobile-nav-toggle-button .icon-bar {
+    transition: all .3s ease-out;
+    display: block;
+    height: 2px;
+    width: 18px;
+    background: #000;
+    position: relative;
+    margin: 0 auto;
+}
+.mobile-nav-toggle-button .icon-bar-2 {
+    margin: 4px auto;
+}
 .header {
     position: fixed;
     background-color: #ffffff;
@@ -82,7 +109,14 @@ ul {
     padding: 0 65px;
     z-index: 1;
 }
-
+.fp-viewing-home-slide1 .home,.fp-viewing-aboutus-slide1 .aboutus,.fp-viewing-aboutus-slide2 .aboutus,.fp-viewing-aboutus-slide3 .aboutus,
+.fp-viewing-recruitment-slide1 .recruitment,.fp-viewing-recruitment-slide2 .recruitment,.fp-viewing-recruitment-slide3 .recruitment
+,.fp-viewing-legalcompliance-slide1 .legalcompliance,.fp-viewing-csr-slide1 .csr,.fp-viewing-csr-slide2 .csr{
+    color:#66c6b9 !important;
+}
+.active{
+    color:#66c6b9 !important;
+}
 .menu ul {
     display: flex;
     display: -webkit-flex;
@@ -1142,4 +1176,1604 @@ button{
     margin-left: 10px;
     color:#333;
     text-decoration: none;
+}
+
+
+@media (max-width:424px){
+    .fp-tableCell{
+        display: block !important;
+        height: auto !important;
+    }
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.container1 h1{
+    font-size: 50px;
+}
+.h1-span1{
+    font-size: 36px;
+
+}
+.contact-us {
+   font-size: 14px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+.container2 {
+    width: 285px;
+   margin: 25px auto;
+}
+.section2_container1 h2{
+font-size: 40px;
+padding-top: 10px;
+letter-spacing: auto;
+}
+.section2_container2 h3{
+    font-size: 32px;
+    letter-spacing: 0;
+}
+.section2_container2 {
+    padding-left: 0;
+}
+.section2 {
+    background: url(../images/duru-workplace.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.fp-section{
+    height: auto !important;
+}
+.section2_container2 p {
+    padding-bottom: 20px;
+    font-size: 24px;
+   
+}
+.section3_container1 h2 {
+  
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.service_cards{
+    display: block;
+}
+.card {
+    max-width: 47%;
+
+    height: 245px;
+   
+    float: left;
+}
+.card img {
+    height: auto;
+}
+.card h4 {
+  
+    /* top: 63px; */
+    font-size: 16px;
+}
+.card p {
+  
+     top: 40px;
+   padding: 0;
+    font-size: 14px;
+}
+.section4_container1 h3 {
+    font-size: 38px;
+    margin-top: 20px;
+    color: #ffffff;
+
+}
+.section4_container1 p {
+    letter-spacing: 0;
+   margin-top: 16px;
+    color: #ffffff;
+     font-size: 24px;
+    width: 100%;
+}
+.section4 {
+    background: url(../images/philosophy.png);
+    background-size: auto;
+    background-position: 100% 99%;
+    background-repeat: no-repeat;
+}
+.section4_container1{
+    margin-bottom: 15px;
+}
+.section4_container2 h4 {
+    font-size: 38px;
+   
+    
+}
+.section4_container2 h5 {
+    
+    font-size: 30px;
+   margin-top: 16px;
+}
+.section4_container2 p {
+    font-size: 16px;
+  }
+  .section4_container2{
+      margin-bottom: 20px;
+  }
+  .section5_container1 h3 {
+   
+    font-size: 24px;
+   margin-top: 40px;
+}
+.section5_container1 {
+    width: 100%;
+    padding-right: 0px;
+}
+.service_container1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.service_container1 h1 {
+    font-size: 50px;
+}
+.service_container1 p {
+    font-size: 24px;
+}
+.service_container2 img {
+    width: 135px;
+    object-fit: contain;
+    margin: 0 auto;
+    margin-top: 23px;
+    display: table;
+}
+.service_section2_container1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.service_section2_container1 h2 {
+ 
+    font-size: 40px;
+   
+    padding-top: 20px;
+}
+.service_section2_container1-para1 {
+    font-size: 18px;
+    margin-top: 18px;
+}
+.service_section2_container1-para2 {
+    font-size: 26px;
+}
+.service_section2_container1-para3 {
+    font-size: 28px;
+    text-align: right;
+}
+.service_section2_container1-para3 span {
+    font-size: 32px;
+    text-align: right;
+   position: relative;
+    margin-left: 10px;
+    display: block;
+}
+.service_section2_container1-para4 {
+     font-size: 22px;
+    text-align: right;
+    margin-top: 10px;
+}
+.service_section2_container1-para4 span {
+   font-size: 20px;
+    text-align: right;
+  display: block;
+}
+.service_section2_container1-para5 {
+    
+    font-size: 16px;
+    
+    margin-right: 0;
+}
+.start-hiring-button {
+    margin: 0 auto;
+       margin-top: 30px;
+    float: none;
+    display: block;
+   
+}
+.service_section3_container1 h2 {
+    font-size: 42px;
+    margin-top: 40px;
+   
+}
+.service_section3_container1 p {
+    font-size: 20px;
+   width: 100%;
+    margin-top: 10px;
+}
+.service_section3_container1 .span2 {
+    font-size: 18px;
+}
+.service_section3_container1 .span3 {
+    font-size: 18px;
+    margin: 0px 0;
+}
+.service_section3_container2 {
+    width: 100%;
+}
+.service_section3_container2 img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+}
+.service_section3 {
+    background: url(../images/philosophy.png);
+    background-size: 91% 47%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.service_section4 h2 {
+    font-family: HelveticaLTStd-Bold;
+    font-size: 42px;
+    width: 100%;
+    color: #222c3c;
+    margin-top: 20px;
+}
+.service_section4_b {
+    display: block;
+    width: 100%;
+   
+}
+.service_section4{
+    background: none;
+}
+.service_section4_subcontainer2 {
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+.service_section4_subcontainer2 p ,.service_section4_subcontainer2 h4{
+    
+    font-size: 20px;
+   
+}
+.service_section5_container1, .service_section5_container2 {
+    width: 100%;
+}
+.service_section5{
+    background: none;
+}
+.service_section5_container1 h2 {
+    font-size: 38px;
+   
+    color: #222c3c;
+}
+.service_section5_container1 h2 span {
+    font-size: 40px;
+}
+.service_section5_container1{
+    margin-top: 40px;
+}
+.para1 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;   
+   }
+   .para2 {
+    font-size: 24px;
+   text-align: left;
+   margin-top: 5px;
+    color: #6d6e71;
+    float: none;
+}
+.para3 {
+    margin-top: 5px;
+     font-size: 18px;
+  }
+  .para4{
+    margin-top: 5px;
+      font-size: 20px;
+      text-align: left;
+  }
+  .para4 span {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 0;
+   display: block;
+    text-align: left;
+}
+.para5{
+    display: block;
+}
+.para5_span1 {
+    font-size: 22px;
+    text-align: left;
+   
+    width: 100%;
+   
+    margin-top: 5px;
+}
+.para5_span2 {
+    font-size: 22px;
+    text-align: left;
+    margin-top: 5px;
+    width: 100%;
+}
+.para6 {
+    font-size: 18px;
+    text-align: left;
+    float: none;
+    margin-top: 5px;
+}
+.service_section6_container1 {
+    width: 100%;
+}
+.service_section6_container1 h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+.service_section6_para1 {
+    font-size: 16px;
+    text-align: left;
+   
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+.service_section6_para2, .service_section6_para3, .service_section6_para4, .service_section6_para5, .service_section6_para6 {
+    font-size: 20px;
+    text-align: left;
+    padding-right: 0;
+}
+.service_section6{
+    background: none;
+}
+.avail-services {
+  
+     float: none;
+     margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+.service_section4_subcontainer4 {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: end;
+}
+.service_section7_container2 {
+    width: 100%;
+}
+.service_section7{
+    background: none;
+    margin-top: 40px;
+}
+.service_section7_container2 h3 {
+    font-size: 38px;
+    text-align: left;
+    padding-left: 0;
+}
+.service_section7_para1 {
+    font-size: 16px;
+    text-align: left;
+   padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-indent: 0;
+}
+.service_section7_para2, .service_section7_para3, .service_section7_para4, .service_section7_para5 {
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+}
+.create_new {
+   
+    font-size: 12px;
+  
+    display: block;
+  float: none;
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+.service_section8{
+    margin-top: 40px;
+    background: none;
+}
+.service_section7_container1 {
+    width: 100%;
+}
+.service_section7_container1 h3 {
+    font-size: 38px;
+}
+.service_section7_container1 h4 {
+    font-size: 18px;
+   
+    margin-top: 10px;
+}
+.service_section7_container1 p {
+    
+    font-size: 16px;
+   margin-top: 10px;
+}
+.contribute {
+  
+    margin: 0 auto;
+    margin-top: 20px;
+    float: none;
+    display: block;
+}
+.service_section9 h3 {
+    font-size: 42px;
+    text-align: left;
+
+    margin-top: 40px;
+}
+.service_section9_para1 {
+   
+    font-size: 16px;
+    margin-top: 8px;
+   
+}
+.service_section9_container {
+    display: block;
+}
+.service_section9_subcontainer {
+    width: 100%;
+    height: 410px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.service_section9_subcontainer img {
+    max-width: 100%;
+    height: 410px;
+    width: 365px;
+    object-fit: cover;
+}
+.service_section9_para2 {
+  
+    font-size: 18px;
+   
+    top: 16px;
+   
+}
+.service_section9_para3 {
+    font-size: 18px;
+     bottom: 24px;
+}
+.service_section10_container1 h3 {
+    font-size: 50px;
+  
+}
+.service_section10_container1 .span1 {
+    font-size: 26px;
+}
+.contact-us1 {
+  
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    float: none;
+}
+.service_section10_container2 img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+.section6_container1 h3 {
+    font-size: 38px;
+    margin-top: 40px;
+}
+.section6_container1 p, .section6_container1 a {
+    font-size: 14px;
+   
+    margin-bottom: 5px;
+}
+.contact-map {
+    width: 100%;
+    height: 270px;
+   
+}
+.section6_container2 {
+    width: 100%;
+    padding-top: 25px;
+}
+.section6_input {
+    margin-left: 0;
+    width: 100%;}
+    .section6_container2 form textarea {
+        width: 100%;
+    }
+    .service_section4_subcontainer1{
+        width: 100%;
+        align-items: end;
+    }
+}
+
+@media (min-width:425px) and (max-width:600px){
+    .fp-tableCell{
+        display: block !important;
+        height: auto !important;
+    }
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.container1 h1{
+    font-size: 50px;
+}
+.h1-span1{
+    font-size: 36px;
+
+}
+.contact-us {
+   font-size: 14px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+.container2 {
+    width: 285px;
+   margin: 25px auto;
+}
+.section2_container1 h2{
+font-size: 40px;
+padding-top: 10px;
+letter-spacing: auto;
+}
+.section2_container2 h3{
+    font-size: 32px;
+    letter-spacing: 0;
+}
+.section2_container2 {
+    padding-left: 0;
+}
+.section2 {
+    background: url(../images/duru-workplace.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.fp-section{
+    height: auto !important;
+}
+.section2_container2 p {
+    padding-bottom: 20px;
+    font-size: 24px;
+   
+}
+.section3_container1 h2 {
+  
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.service_cards{
+    display: block;
+}
+.card {
+    max-width: 47%;
+
+    height: 245px;
+   
+    float: left;
+}
+.card img {
+    height: auto;
+}
+.card h4 {
+  
+    /* top: 63px; */
+    font-size: 16px;
+}
+.card p {
+  
+     top: 40px;
+   padding: 0;
+    font-size: 14px;
+}
+.section4_container1 h3 {
+    font-size: 38px;
+    margin-top: 20px;
+    color: #ffffff;
+
+}
+.section4_container1 p {
+    letter-spacing: 0;
+   margin-top: 16px;
+    color: #ffffff;
+     font-size: 24px;
+    width: 100%;
+}
+.section4 {
+    background: url(../images/philosophy.png);
+    background-size: auto;
+    background-position: 100% 99%;
+    background-repeat: no-repeat;
+}
+.section4_container1{
+    margin-bottom: 15px;
+}
+.section4_container2 h4 {
+    font-size: 38px;
+   
+    
+}
+.section4_container2 h5 {
+    
+    font-size: 30px;
+   margin-top: 16px;
+}
+.section4_container2 p {
+    font-size: 16px;
+  }
+  .section4_container2{
+      margin-bottom: 20px;
+  }
+  .section5_container1 h3 {
+   
+    font-size: 24px;
+   margin-top: 40px;
+}
+.section5_container1 {
+    width: 100%;
+    padding-right: 0px;
+}
+.service_container1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.service_container1 h1 {
+    font-size: 50px;
+}
+.service_container1 p {
+    font-size: 24px;
+}
+.service_container2 img {
+    width: 135px;
+    object-fit: contain;
+    margin: 0 auto;
+    margin-top: 23px;
+    display: table;
+}
+.service_section2_container1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.service_section2_container1 h2 {
+ 
+    font-size: 40px;
+   
+    padding-top: 20px;
+}
+.service_section2_container1-para1 {
+    font-size: 18px;
+    margin-top: 18px;
+}
+.service_section2_container1-para2 {
+    font-size: 26px;
+}
+.service_section2_container1-para3 {
+    font-size: 28px;
+    text-align: right;
+}
+.service_section2_container1-para3 span {
+    font-size: 32px;
+    text-align: right;
+   position: relative;
+    margin-left: 10px;
+    display: block;
+}
+.service_section2_container1-para4 {
+     font-size: 22px;
+    text-align: right;
+    margin-top: 10px;
+}
+.service_section2_container1-para4 span {
+   font-size: 20px;
+    text-align: right;
+  display: block;
+}
+.service_section2_container1-para5 {
+    
+    font-size: 16px;
+    
+    margin-right: 0;
+}
+.start-hiring-button {
+    margin: 0 auto;
+       margin-top: 30px;
+    float: none;
+    display: block;
+   
+}
+.service_section3_container1 h2 {
+    font-size: 42px;
+    margin-top: 40px;
+   
+}
+.service_section3_container1 p {
+    font-size: 20px;
+   width: 100%;
+    margin-top: 10px;
+}
+.service_section3_container1 .span2 {
+    font-size: 18px;
+}
+.service_section3_container1 .span3 {
+    font-size: 18px;
+    margin: 0px 0;
+}
+.service_section3_container2 {
+    width: 100%;
+}
+.service_section3_container2 img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+}
+.service_section3 {
+    background: url(../images/philosophy.png);
+    background-size: 91% 47%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.service_section4 h2 {
+    font-family: HelveticaLTStd-Bold;
+    font-size: 42px;
+    width: 100%;
+    color: #222c3c;
+    margin-top: 20px;
+}
+.service_section4_b {
+    display: block;
+    width: 100%;
+   
+}
+.service_section4{
+    background: none;
+}
+.service_section4_subcontainer2 {
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+.service_section4_subcontainer2 p ,.service_section4_subcontainer2 h4{
+    
+    font-size: 20px;
+   
+}
+.service_section5_container1, .service_section5_container2 {
+    width: 100%;
+}
+.service_section5{
+    background: none;
+}
+.service_section5_container1 h2 {
+    font-size: 38px;
+   
+    color: #222c3c;
+}
+.service_section5_container1 h2 span {
+    font-size: 40px;
+}
+.service_section5_container1{
+    margin-top: 40px;
+}
+.para1 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;   
+   }
+   .para2 {
+    font-size: 24px;
+   text-align: left;
+   margin-top: 5px;
+    color: #6d6e71;
+    float: none;
+}
+.para3 {
+    margin-top: 5px;
+     font-size: 18px;
+  }
+  .para4{
+    margin-top: 5px;
+      font-size: 20px;
+      text-align: left;
+  }
+  .para4 span {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 0;
+   display: block;
+    text-align: left;
+}
+.para5{
+    display: block;
+}
+.para5_span1 {
+    font-size: 22px;
+    text-align: left;
+   
+    width: 100%;
+   
+    margin-top: 5px;
+}
+.para5_span2 {
+    font-size: 22px;
+    text-align: left;
+    margin-top: 5px;
+    width: 100%;
+}
+.para6 {
+    font-size: 18px;
+    text-align: left;
+    float: none;
+    margin-top: 5px;
+}
+.service_section6_container1 {
+    width: 100%;
+}
+.service_section6_container1 h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+.service_section6_para1 {
+    font-size: 16px;
+    text-align: left;
+   
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+.service_section6_para2, .service_section6_para3, .service_section6_para4, .service_section6_para5, .service_section6_para6 {
+    font-size: 20px;
+    text-align: left;
+    padding-right: 0;
+}
+.service_section6{
+    background: none;
+}
+.avail-services {
+  
+     float: none;
+     margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+.service_section4_subcontainer4 {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: end;
+}
+.service_section7_container2 {
+    width: 100%;
+}
+.service_section7{
+    background: none;
+    margin-top: 40px;
+}
+.service_section7_container2 h3 {
+    font-size: 38px;
+    text-align: left;
+    padding-left: 0;
+}
+.service_section7_para1 {
+    font-size: 16px;
+    text-align: left;
+   padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-indent: 0;
+}
+.service_section7_para2, .service_section7_para3, .service_section7_para4, .service_section7_para5 {
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+}
+.create_new {
+   
+    font-size: 12px;
+  
+    display: block;
+  float: none;
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+.service_section8{
+    margin-top: 40px;
+    background: none;
+}
+.service_section7_container1 {
+    width: 100%;
+}
+.service_section7_container1 h3 {
+    font-size: 38px;
+}
+.service_section7_container1 h4 {
+    font-size: 18px;
+   
+    margin-top: 10px;
+}
+.service_section7_container1 p {
+    
+    font-size: 16px;
+   margin-top: 10px;
+}
+.contribute {
+  
+    margin: 0 auto;
+    margin-top: 20px;
+    float: none;
+    display: block;
+}
+.service_section9 h3 {
+    font-size: 42px;
+    text-align: left;
+
+    margin-top: 40px;
+}
+.service_section9_para1 {
+   
+    font-size: 16px;
+    margin-top: 8px;
+   
+}
+.service_section9_container {
+    display: block;
+}
+.service_section9_subcontainer {
+    width: 350px;
+    height: 410px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.service_section9_subcontainer img {
+    max-width: 100%;
+    height: 410px;
+    width: 365px;
+    object-fit: cover;
+}
+.service_section9_para2 {
+  
+    font-size: 18px;
+   
+    top: 16px;
+   
+}
+.service_section9_para3 {
+    font-size: 18px;
+     bottom: 24px;
+}
+.service_section10_container1 h3 {
+    font-size: 50px;
+  
+}
+.service_section10_container1 .span1 {
+    font-size: 26px;
+}
+.contact-us1 {
+  
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    float: none;
+}
+.service_section10_container2 img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+.section6_container1 h3 {
+    font-size: 38px;
+    margin-top: 40px;
+}
+.section6_container1 p, .section6_container1 a {
+    font-size: 14px;
+   
+    margin-bottom: 5px;
+}
+.contact-map {
+    width: 100%;
+    height: 270px;
+   
+}
+.section6_container2 {
+    width: 100%;
+    padding-top: 25px;
+}
+.section6_input {
+    margin-left: 0;
+    width: 100%;}
+    .section6_container2 form textarea {
+        width: 100%;
+    }
+    .service_section4_subcontainer1{
+        width: 100%;
+        align-items: end;
+    }
+}
+
+@media (min-width:601px) and (max-width:768px){
+    .fp-tableCell{
+        display: block !important;
+        height: auto !important;
+    }
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.container1 h1{
+    font-size: 50px;
+}
+.h1-span1{
+    font-size: 36px;
+
+}
+.contact-us {
+   font-size: 14px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+.container2 {
+    width: 285px;
+   margin: 25px auto;
+}
+.section2_container1 h2{
+font-size: 40px;
+padding-top: 10px;
+letter-spacing: auto;
+}
+.section2_container2 h3{
+    font-size: 32px;
+    letter-spacing: 0;
+}
+.section2_container2 {
+    padding-left: 0;
+}
+.section2 {
+    background: url(../images/duru-workplace.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.fp-section{
+    height: auto !important;
+}
+.section2_container2 p {
+    padding-bottom: 20px;
+    font-size: 24px;
+   
+}
+.section3_container1 h2 {
+  
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.service_cards{
+    display: block;
+}
+.card {
+    max-width: 47%;
+
+    height: 245px;
+   
+    float: left;
+}
+.card img {
+    height: auto;
+}
+.card h4 {
+  
+    /* top: 63px; */
+    font-size: 16px;
+}
+.card p {
+  
+     top: 40px;
+   padding: 0;
+    font-size: 14px;
+}
+.section4_container1 h3 {
+    font-size: 38px;
+    margin-top: 20px;
+    color: #ffffff;
+
+}
+.section4_container1 p {
+    letter-spacing: 0;
+   margin-top: 16px;
+    color: #ffffff;
+     font-size: 24px;
+    width: 100%;
+}
+.section4 {
+    background: url(../images/philosophy.png);
+    background-size: auto;
+    background-position: 100% 99%;
+    background-repeat: no-repeat;
+}
+.section4_container1{
+    margin-bottom: 15px;
+}
+.section4_container2 h4 {
+    font-size: 38px;
+   
+    
+}
+.section4_container2 h5 {
+    
+    font-size: 30px;
+   margin-top: 16px;
+}
+.section4_container2 p {
+    font-size: 16px;
+  }
+  .section4_container2{
+      margin-bottom: 20px;
+  }
+  .section5_container1 h3 {
+   
+    font-size: 24px;
+   margin-top: 40px;
+}
+.section5_container1 {
+    width: 100%;
+    padding-right: 0px;
+}
+.service_container1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.service_container1 h1 {
+    font-size: 50px;
+}
+.service_container1 p {
+    font-size: 24px;
+}
+.service_container2 img {
+    width: 135px;
+    object-fit: contain;
+    margin: 0 auto;
+    margin-top: 23px;
+    display: table;
+}
+.service_section2_container1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.service_section2_container1 h2 {
+ 
+    font-size: 40px;
+   
+    padding-top: 20px;
+}
+.service_section2_container1-para1 {
+    font-size: 18px;
+    margin-top: 18px;
+}
+.service_section2_container1-para2 {
+    font-size: 26px;
+}
+.service_section2_container1-para3 {
+    font-size: 28px;
+    text-align: right;
+}
+.service_section2_container1-para3 span {
+    font-size: 32px;
+    text-align: right;
+   position: relative;
+    margin-left: 10px;
+    display: block;
+}
+.service_section2_container1-para4 {
+     font-size: 22px;
+    text-align: right;
+    margin-top: 10px;
+}
+.service_section2_container1-para4 span {
+   font-size: 20px;
+    text-align: right;
+  display: block;
+}
+.service_section2_container1-para5 {
+    
+    font-size: 16px;
+    
+    margin-right: 0;
+}
+.start-hiring-button {
+    margin: 0 auto;
+       margin-top: 30px;
+    float: none;
+    display: block;
+   
+}
+.service_section3_container1 h2 {
+    font-size: 42px;
+    margin-top: 40px;
+   
+}
+.service_section3_container1 p {
+    font-size: 20px;
+   width: 100%;
+    margin-top: 10px;
+}
+.service_section3_container1 .span2 {
+    font-size: 18px;
+}
+.service_section3_container1 .span3 {
+    font-size: 18px;
+    margin: 0px 0;
+}
+.service_section3_container2 {
+    width: 100%;
+}
+.service_section3_container2 img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+}
+.service_section3 {
+    background: url(../images/philosophy.png);
+    background-size: 91% 47%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.service_section4 h2 {
+    font-family: HelveticaLTStd-Bold;
+    font-size: 42px;
+    width: 100%;
+    color: #222c3c;
+    margin-top: 20px;
+}
+.service_section4_b {
+    display: block;
+    width: 100%;
+   
+}
+.service_section4{
+    background: none;
+}
+.service_section4_subcontainer2 {
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+.service_section4_subcontainer2 p ,.service_section4_subcontainer2 h4{
+    
+    font-size: 20px;
+   
+}
+.service_section5_container1, .service_section5_container2 {
+    width: 100%;
+}
+.service_section5{
+    background: none;
+}
+.service_section5_container1 h2 {
+    font-size: 38px;
+   
+    color: #222c3c;
+}
+.service_section5_container1 h2 span {
+    font-size: 40px;
+}
+.service_section5_container1{
+    margin-top: 40px;
+}
+.para1 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;   
+   }
+   .para2 {
+    font-size: 24px;
+   text-align: left;
+   margin-top: 5px;
+    color: #6d6e71;
+    float: none;
+}
+.para3 {
+    margin-top: 5px;
+     font-size: 18px;
+  }
+  .para4{
+    margin-top: 5px;
+      font-size: 20px;
+      text-align: left;
+  }
+  .para4 span {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 0;
+   display: block;
+    text-align: left;
+}
+.para5{
+    display: block;
+}
+.para5_span1 {
+    font-size: 22px;
+    text-align: left;
+   
+    width: 100%;
+   
+    margin-top: 5px;
+}
+.para5_span2 {
+    font-size: 22px;
+    text-align: left;
+    margin-top: 5px;
+    width: 100%;
+}
+.para6 {
+    font-size: 18px;
+    text-align: left;
+    float: none;
+    margin-top: 5px;
+}
+.service_section6_container1 {
+    width: 100%;
+}
+.service_section6_container1 h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+.service_section6_para1 {
+    font-size: 16px;
+    text-align: left;
+   
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+.service_section6_para2, .service_section6_para3, .service_section6_para4, .service_section6_para5, .service_section6_para6 {
+    font-size: 20px;
+    text-align: left;
+    padding-right: 0;
+}
+.service_section6{
+    background: none;
+}
+.avail-services {
+  
+     float: none;
+     margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+.service_section4_subcontainer4 {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: end;
+}
+.service_section7_container2 {
+    width: 100%;
+}
+.service_section7{
+    background: none;
+    margin-top: 40px;
+}
+.service_section7_container2 h3 {
+    font-size: 38px;
+    text-align: left;
+    padding-left: 0;
+}
+.service_section7_para1 {
+    font-size: 16px;
+    text-align: left;
+   padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-indent: 0;
+}
+.service_section7_para2, .service_section7_para3, .service_section7_para4, .service_section7_para5 {
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+}
+.create_new {
+   
+    font-size: 12px;
+  
+    display: block;
+  float: none;
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+.service_section8{
+    margin-top: 40px;
+    background: none;
+}
+.service_section7_container1 {
+    width: 100%;
+}
+.service_section7_container1 h3 {
+    font-size: 38px;
+}
+.service_section7_container1 h4 {
+    font-size: 18px;
+   
+    margin-top: 10px;
+}
+.service_section7_container1 p {
+    
+    font-size: 16px;
+   margin-top: 10px;
+}
+.contribute {
+  
+    margin: 0 auto;
+    margin-top: 20px;
+    float: none;
+    display: block;
+}
+.service_section9 h3 {
+    font-size: 42px;
+    text-align: left;
+
+    margin-top: 40px;
+}
+.service_section9_para1 {
+   
+    font-size: 16px;
+    margin-top: 8px;
+   
+}
+.service_section9_container {
+    display: block;
+}
+.service_section9_subcontainer {
+    width: 350px;
+    height: 410px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.service_section9_subcontainer img {
+    max-width: 100%;
+    height: 410px;
+    width: 365px;
+    object-fit: cover;
+}
+.service_section9_para2 {
+  
+    font-size: 18px;
+   
+    top: 16px;
+   
+}
+.service_section9_para3 {
+    font-size: 18px;
+     bottom: 24px;
+}
+.service_section10_container1 h3 {
+    font-size: 50px;
+  
+}
+.service_section10_container1 .span1 {
+    font-size: 26px;
+}
+.contact-us1 {
+  
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    float: none;
+}
+.service_section10_container2 img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+.section6_container1 h3 {
+    font-size: 38px;
+    margin-top: 40px;
+}
+.section6_container1 p, .section6_container1 a {
+    font-size: 14px;
+   
+    margin-bottom: 5px;
+}
+.contact-map {
+    width: 100%;
+    height: 270px;
+   
+}
+.section6_container2 {
+    width: 100%;
+    padding-top: 25px;
+}
+.section6_input {
+    margin-left: 0;
+    width: 100%;}
+    .section6_container2 form textarea {
+        width: 100%;
+    }
+    .service_section4_subcontainer1{
+        width: 100%;
+        align-items: end;
+    }
+}
+@media(min-width:1025px){
+    .mobile-nav-toggle-button{
+        display: none;
+    }
+}
+@media (max-width:1024px){
+    /* .menu{
+        display: none;
+    } */
+    .section5{
+        background: none;
+    }
+    body.has-mobile-navigation-open:not(.has-lightbox-open) .mobile-nav-toggle-button .icon-bar-1 {
+        -moz-transform-origin: 50% 100%;
+        -webkit-transform-origin: 50% 100%;
+        -o-transform-origin: 50% 100%;
+        -ms-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        -moz-transform: rotate(45deg) translate(4px, 4px);
+        -webkit-transform: rotate(45deg) translate(4px, 4px);
+        -o-transform: rotate(45deg) translate(4px, 4px);
+        -ms-transform: rotate(45deg) translate(4px, 4px);
+        transform: rotate(45deg) translate(4px, 4px);
+        background: #fff;
+    }
+    body.has-mobile-navigation-open:not(.has-lightbox-open) .mobile-nav-toggle-button .icon-bar-2 {
+        opacity: 0;
+    }
+    body.has-mobile-navigation-open:not(.has-lightbox-open) .mobile-nav-toggle-button .icon-bar-3 {
+        -moz-transform-origin: 50% 0;
+        -webkit-transform-origin: 50% 0;
+        -o-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -moz-transform: rotate(-45deg) translate(4px, -4px);
+        -webkit-transform: rotate(-45deg) translate(4px, -4px);
+        -o-transform: rotate(-45deg) translate(4px, -4px);
+        -ms-transform: rotate(-45deg) translate(4px, -4px);
+        transform: rotate(-45deg) translate(4px, -4px);
+        background: #fff;
+    }
+    .header{
+        padding: 0 30px;
+    }
+    #top-menu {
+        height: 100%;
+        width: 270px;
+        position: fixed;
+        z-index: 1;
+        right: -270px;
+        background-color: #000;
+        overflow-x: hidden;
+        transition: .5s;
+        top: 0;
+        padding-top: 60px;
+        display: block;
+        margin: 0;
+        padding-left: 0;
+    }
+    .contactus{
+
+    }
+    .width_100 {
+        right: 0!important;
+        
+    }
+    #fullpage{
+        padding-top: 110px;
+    }
 }
