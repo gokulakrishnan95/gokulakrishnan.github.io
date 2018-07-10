@@ -8,10 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/master.css" />
     <link rel="stylesheet" href="css/jquery.fullpage.css">
-
+    <meta name="theme-color" content="#66c6b9"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
 
@@ -28,6 +27,9 @@
                     'csr', 'csr-slide1', 'csr-slide2', 'contactus'
                 ],
                 menu: '#top-menu',
+                scrollOverflow: true,
+                scrollBar: true,
+
                 // lockAnchors:true
                 afterLoad: function (anchorLink, index) {
                     history.pushState(null, null, "index.html");
@@ -169,19 +171,19 @@
             <section class="section section1">
                 <div class="content">
                     <div class="container1">
-                        <h1 class="wow animated fadeInLeft" data-wow-delay="0.2s">
+                        <h1 class="wow animated fadeInLeft" data-wow-delay="50ms">
                             DURU
                             <span class="h1-span1">is</span>
                             <span class="h1-span2">Cooperation</span>
                         </h1>
-                        <p class="wow animated fadeInLeft" data-wow-delay="0.25s">
+                        <p class="wow animated fadeInLeft" data-wow-delay="75ms">
                             <span>Duru</span> is a word meaning
                             <span>"limitless"</span> in Korean</p>
-                        <button class="wow animated fadeInLeft contact-us" data-wow-delay="0.25s">
+                        <button class="wow animated fadeInLeft contact-us" data-wow-delay="75ms">
                             <a href="#contactus">Contact us</a>
                         </button>
                     </div>
-                    <div class="container2 wow animated fadeInLeft" data-wow-delay="0.3s">
+                    <div class="container2 wow animated fadeInLeft" data-wow-delay="100ms">
                         <form >
                             <h3>Company Login</h3>
                             <p>Login to your company account</p>
@@ -195,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="scroll-down">
+                <div class="scroll-down  wow animated fadeInDown" data-wow-delay="100ms">
                     <img src="images/scroller-icon.svg" alt="scroller">
                     <p>Scroll down</p>
                 </div>
@@ -203,17 +205,17 @@
             <section class="section section2">
                 <div class="content">
                     <div class="section2_container1">
-                        <h2>
+                        <h2  class="wow animated fadeInDown" data-wow-delay="25ms">
                             <span>Duru</span>
                             COOPERATION
                         </h2>
 
                     </div>
                     <div class="section2_container2">
-                        <h3>
+                        <h3  class="wow animated fadeInDown" data-wow-delay="50ms">
                             We are here to create great workplaces in India
                         </h3>
-                        <p>Better than ever before</p>
+                        <p  class="wow animated fadeInDown" data-wow-delay="75ms">Better than ever before</p>
                     </div>
                 </div>
             </section>
@@ -221,14 +223,14 @@
             <section class="section section3">
                 <div class="content">
                     <div class="section3_container1">
-                        <h2>Services</h2>
+                        <h2   class="wow animated fadeInDown" data-wow-delay="0ms">Services</h2>
                         <div class="service_cards">
-                            <div class="card">
+                            <div class="card wow animated fadeInDown" data-wow-delay="60ms" >
                                 <img src="images/duru-recuritement.png" alt="Recruitment">
                                 <h4>Recruitment</h4>
                                 <p>Overseas,Domestic</p>
                             </div>
-                            <div class="card">
+                            <div class="card wow animated fadeInDown" data-wow-delay="160ms">
                                 <img src="images/duru-legal-compliance.png" alt="Legal Compliance">
                                 <h4>Legal Compliance
 
@@ -236,13 +238,13 @@
 
                                 <p>Registration, Auditing,Accounting, Taxation</p>
                             </div>
-                            <div class="card">
+                            <div class="card wow animated fadeInDown" data-wow-delay="260ms">
                                 <img src="images/duru-branding.png" alt="Branding">
                                 <h4>Branding</h4>
 
                                 <p>Company Logo, Brochure, Marketing collateral</p>
                             </div>
-                            <div class="card">
+                            <div class="card wow animated fadeInDown" data-wow-delay="360ms">
                                 <img src="images/duru-csr.png" alt="CSR Service">
                                 <h4>CSR Service</h4>
                                 <p>Scholarships, Talks, Cultural exchange
@@ -256,27 +258,27 @@
             <section class="section section4">
                 <div class="content">
                     <div class="section4_container1">
-                        <h3>Philosophy</h3>
-                        <p>
+                        <h3  class="wow animated fadeInDown" data-wow-delay="0ms">Philosophy</h3>
+                        <p  class="wow animated fadeInDown" data-wow-delay="200ms">
                             We dedicate ourselves to the
                             <span>success</span> of our partners and welfare of the
                             <span>Indian society</span>
                         </p>
                     </div>
                     <div class="section4_container2">
-                        <h4>
+                        <h4  class="wow animated fadeInDown" data-wow-delay="300ms">
                             Core Values
                         </h4>
-                        <h5>Quality</h5>
-                        <p>
+                        <h5 class="wow animated fadeInDown" data-wow-delay="400ms">Quality</h5>
+                        <p class="wow animated fadeInDown" data-wow-delay="500ms">
                             Sustainable high quality
                         </p>
-                        <h5>INTEGRITY</h5>
-                        <p>
+                        <h5 class="wow animated fadeInDown" data-wow-delay="600ms">INTEGRITY</h5>
+                        <p class="wow animated fadeInDown" data-wow-delay="700ms">
                             Ethical work culture
                         </p>
-                        <h5>CO-PROSPERITY</h5>
-                        <p>
+                        <h5 class="wow animated fadeInDown" data-wow-delay="800ms">CO-PROSPERITY</h5>
+                        <p class="wow animated fadeInDown" data-wow-delay="900ms">
                             Sustainable high quality
                         </p>
                     </div>
@@ -285,17 +287,17 @@
             <section class="section section5">
                 <div class="content">
                     <div class="section5_container1">
-                        <h3>CEO Message</h3>
-                        <p> Sustainable business growth is indispensable when it comes to co-prosperity. To accomplish this goal,
+                        <h3  class="wow animated fadeInDown" data-wow-delay="0ms">CEO Message</h3>
+                        <p  class="wow animated fadeInDown" data-wow-delay="200ms"> Sustainable business growth is indispensable when it comes to co-prosperity. To accomplish this goal,
                             Duru Cooperation embodies new features and provides reliable services for the success of our
                             clients.
-                        </p>
-                        <p> Based on our own experience as a client, we understand the needs of a company in a foreign country.
+                        </p  class="wow animated fadeInDown" data-wow-delay="300ms">
+                        <p  class="wow animated fadeInDown" data-wow-delay="400ms"> Based on our own experience as a client, we understand the needs of a company in a foreign country.
                             Keeping this in mind, we have improved the existing work culture, through our online platforms.
                             The Duruper Recruitment System and Duru ERP empower us to create great workplaces for our clients
                             in India.
-                        </p>
-                        <p> We are sincerely excited to expand our contribution to the successful business of our partners and
+                        </p >
+                        <p  class="wow animated fadeInDown" data-wow-delay="500ms"> We are sincerely excited to expand our contribution to the successful business of our partners and
                             wellbeing of the Indian society.
                         </p>
 
@@ -309,12 +311,14 @@
             <section class="section service_section1">
                 <div class="content">
                     <div class="service_container1">
-                        <h1>
+                        <h1  class="wow animated fadeInDown" data-wow-delay="100ms">
                             Sustainable
                             <span>High Quality
                             </span>
                         </h1>
-                        <p>
+                        <p 
+                        
+                        class="wow animated fadeInDown" data-wow-delay="200ms">
                             We dedicate ourselves to the success of our partners</p>
                     </div>
                     <div class="service_container2">
@@ -569,6 +573,7 @@
                 <div class="content">
                     <div class="service_section9_main">
                         <h3>CSR Service</h3>
+                       
                         <p class="service_section9_para1">Maximise the outcome of your CSR initiatives with Duru</p>
                         <div class="service_section9_container">
                              
