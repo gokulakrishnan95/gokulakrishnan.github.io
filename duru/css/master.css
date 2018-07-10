@@ -601,9 +601,9 @@ ul {
 
 .section5 {
     background: url(../images/duru-ceo-msg.png);
-    background-size: contain;
+    background-size: 70% 93%;
     background-position-x: right;
-    background-position-y: 50px;
+    background-position-y: 79px;
     background-repeat: no-repeat;
 }
 
