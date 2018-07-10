@@ -280,7 +280,8 @@ ul {
 .section1 {
     background: url(../images/duru-bgnd.png);
     background-size: 100%;
-    background-position: 100%;
+    background-position-y: -61px;
+    background-position-x: -20px;
     background-repeat: no-repeat;
 }
 
@@ -467,6 +468,7 @@ ul {
     background: url(../images/philosophy.png);
     background-size: cover;
     background-position: right;
+    background-position-y: 80px;
     background-repeat: no-repeat;
 }
 
@@ -550,7 +552,8 @@ ul {
 .service_section1 {
     background: url(../images/duru-bgnd.png);
     background-size: 100%;
-    background-position: 100%;
+    background-position-y: -61px;
+    background-position-x: -20px;
     background-repeat: no-repeat;
 }
 
@@ -692,6 +695,7 @@ ul {
     background: url(../images/philosophy.png);
     background-size: cover;
     background-position: right;
+    background-position-y: 80px;
     background-repeat: no-repeat;
 }
 
@@ -1203,7 +1207,8 @@ button {
 .service_section10 {
     background: url(../images/duru-bgnd.png);
     background-size: 100%;
-    background-position: 100%;
+    background-position-y: -61px;
+    background-position-x: -20px;
     background-repeat: no-repeat;
 }
 .service_section10_container1 h3 {
