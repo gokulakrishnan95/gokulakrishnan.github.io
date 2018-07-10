@@ -100,13 +100,28 @@
             $('.menu ul').toggleClass('width_100');
 
         }
+        window.onload = function() {
+    setTimeout(function() {
+        $(".loader").css("visibility", "hidden");
+    }, 0);
+    
+};
     </script>
 
 
 </head>
 
 <body class="landingpage">
-
+    <div class="loader">
+        <div class="three-bounce selected">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+        <!-- Header -->
+        <div id="loader"></div>
+    
     <div class="main homepage_header">
         <header class="header">
             <div>
