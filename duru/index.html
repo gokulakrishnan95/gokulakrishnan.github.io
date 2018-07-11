@@ -1,24 +1,42 @@
+<!-- Designed and coded with love -->
 <!DOCTYPE HTML>
 <html>
-
 <head>
-    <title>DURU cooperation</title>
-    <link rel="icon" href="images/dtalefavicon.png" type="image/png" sizes="16x16">
-    <meta charset="utf-8" />
+    <title>DURU Cooperation</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">   
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- for SEO purposes add below content -->
+    <!-- <meta name="description" content="" />
+    <meta property="og:description" content="."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="fb:app_id" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="636"/>
+    <meta property="og:locale" content="en_US"/>
+    <link rel="canonical" href=""> -->
     <link rel="stylesheet" href="css/master.css" />
     <link rel="stylesheet" href="css/jquery.fullpage.css">
-    <meta name="theme-color" content="#66c6b9"/>
+    <meta name="theme-color" content="#66c6b9" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
-
     <script>
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                // scrollOverflow: true,
-                // scrollBar: true,
                 verticalCentered: true,
                 responsiveWidth: 425,
                 anchors: ['home', 'home-slide1', 'aboutus', 'aboutus-slide1', 'aboutus-slide2',
@@ -35,9 +53,7 @@
                     history.pushState(null, null, "index.html");
                 }
             });
-            //     $(document).on('click', '#recruitment', function(){
-            // $.fn.fullpage.silentMoveTo('page2');
-            // });
+
             $('.scroll-link').click(function (e) {
                 $('body,html').animate({
                     scrollTop: $('#sec1').offset().top - 20
@@ -89,12 +105,13 @@
                 $('#branding-popup').removeClass('display-block');
             });
             $(".contribute").click(function () {
+
                 $('#csr-popup').addClass('display-block');
             });
             $("#csr-popup .close-icon").click(function () {
                 $('#csr-popup').removeClass('display-block');
             });
-            
+
         });
 
         function toggleDemo() {
@@ -102,15 +119,13 @@
             $('.menu ul').toggleClass('width_100');
 
         }
-        window.onload = function() {
-    setTimeout(function() {
-        $(".loader").css("visibility", "hidden");
-    }, 0);
-    
-};
+        window.onload = function () {
+            setTimeout(function () {
+                $(".loader").css("visibility", "hidden");
+            }, 0);
+
+        };
     </script>
-
-
 </head>
 
 <body class="landingpage">
@@ -121,9 +136,8 @@
             <div class="three"></div>
         </div>
     </div>
-        <!-- Header -->
-        <div id="loader"></div>
-    
+    <!-- Header -->
+    <div id="loader"></div>
     <div class="main homepage_header">
         <header class="header">
             <div>
@@ -131,8 +145,6 @@
                     <img src="images/duru-logo.svg" alt="Duru cooperation" class="logo">
                 </a>
             </div>
-
-
             <div class="menu">
                 <ul id="top-menu">
                     <li data-menuanchor="home" class="home">
@@ -178,13 +190,14 @@
                         </h1>
                         <p class="wow animated fadeInLeft" data-wow-delay="75ms">
                             <span>Duru</span> is a word meaning
-                            <span>"limitless"</span> in Korean</p>
+                            <span>"limitless"</span> in Korean
+                        </p>
                         <button class="wow animated fadeInLeft contact-us" data-wow-delay="75ms">
                             <a href="#contactus">Contact us</a>
                         </button>
                     </div>
                     <div class="container2 wow animated fadeInLeft" data-wow-delay="100ms">
-                        <form >
+                        <form>
                             <h3>Company Login</h3>
                             <p>Login to your company account</p>
                             <input type="email" placeholder="Email address">
@@ -205,43 +218,38 @@
             <section class="section section2">
                 <div class="content">
                     <div class="section2_container1">
-                        <h2  class="wow animated fadeInDown" data-wow-delay="25ms">
+                        <h2 class="wow animated fadeInDown" data-wow-delay="25ms">
                             <span>Duru</span>
                             COOPERATION
                         </h2>
-
                     </div>
                     <div class="section2_container2">
-                        <h3  class="wow animated fadeInDown" data-wow-delay="50ms">
+                        <h3 class="wow animated fadeInDown" data-wow-delay="50ms">
                             We are here to create great workplaces in India
                         </h3>
-                        <p  class="wow animated fadeInDown" data-wow-delay="75ms">Better than ever before</p>
+                        <p class="wow animated fadeInDown" data-wow-delay="75ms">Better than ever before</p>
                     </div>
                 </div>
             </section>
-
             <section class="section section3">
                 <div class="content">
                     <div class="section3_container1">
-                        <h2   class="wow animated fadeInDown" data-wow-delay="0ms">Services</h2>
+                        <h2 class="wow animated fadeInDown" data-wow-delay="0ms">Services</h2>
                         <div class="service_cards">
-                            <div class="card wow animated fadeInDown" data-wow-delay="60ms" >
+                            <div class="card wow animated fadeInDown" data-wow-delay="60ms">
                                 <img src="images/duru-recuritement.png" alt="Recruitment">
                                 <h4>Recruitment</h4>
-                                <p>Overseas,Domestic</p>
+                                <p>Overseas, Domestic</p>
                             </div>
                             <div class="card wow animated fadeInDown" data-wow-delay="160ms">
                                 <img src="images/duru-legal-compliance.png" alt="Legal Compliance">
                                 <h4>Legal Compliance
-
                                 </h4>
-
-                                <p>Registration, Auditing,Accounting, Taxation</p>
+                                <p>Registration, Auditing, Accounting, Taxation</p>
                             </div>
                             <div class="card wow animated fadeInDown" data-wow-delay="260ms">
                                 <img src="images/duru-branding.png" alt="Branding">
                                 <h4>Branding</h4>
-
                                 <p>Company Logo, Brochure, Marketing collateral</p>
                             </div>
                             <div class="card wow animated fadeInDown" data-wow-delay="360ms">
@@ -251,22 +259,21 @@
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
             <section class="section section4">
                 <div class="content">
                     <div class="section4_container1">
-                        <h3  class="wow animated fadeInDown" data-wow-delay="0ms">Philosophy</h3>
-                        <p  class="wow animated fadeInDown" data-wow-delay="200ms">
+                        <h3 class="wow animated fadeInDown" data-wow-delay="0ms">Philosophy</h3>
+                        <p class="wow animated fadeInDown" data-wow-delay="200ms">
                             We dedicate ourselves to the
                             <span>success</span> of our partners and welfare of the
                             <span>Indian society</span>
                         </p>
                     </div>
                     <div class="section4_container2">
-                        <h4  class="wow animated fadeInDown" data-wow-delay="300ms">
+                        <h4 class="wow animated fadeInDown" data-wow-delay="300ms">
                             Core Values
                         </h4>
                         <h5 class="wow animated fadeInDown" data-wow-delay="400ms">Quality</h5>
@@ -287,79 +294,74 @@
             <section class="section section5">
                 <div class="content">
                     <div class="section5_container1">
-                        <h3  class="wow animated fadeInDown" data-wow-delay="0ms">CEO Message</h3>
-                        <p  class="wow animated fadeInDown" data-wow-delay="200ms"> Sustainable business growth is indispensable when it comes to co-prosperity. To accomplish this goal,
+                        <h3 class="wow animated fadeInDown" data-wow-delay="0ms">CEO Message</h3>
+                        <p class="wow animated fadeInDown" data-wow-delay="200ms"> Sustainable business growth is indispensable when it comes to co-prosperity. To accomplish this goal,
                             Duru Cooperation embodies new features and provides reliable services for the success of our
                             clients.
-                        </p  class="wow animated fadeInDown" data-wow-delay="300ms">
-                        <p  class="wow animated fadeInDown" data-wow-delay="400ms"> Based on our own experience as a client, we understand the needs of a company in a foreign country.
+                        </p class="wow animated fadeInDown" data-wow-delay="300ms">
+                        <p class="wow animated fadeInDown" data-wow-delay="400ms"> Based on our own experience as a client, we understand the needs of a company in a foreign country.
                             Keeping this in mind, we have improved the existing work culture, through our online platforms.
                             The Duruper Recruitment System and Duru ERP empower us to create great workplaces for our clients
                             in India.
-                        </p >
-                        <p  class="wow animated fadeInDown" data-wow-delay="500ms"> We are sincerely excited to expand our contribution to the successful business of our partners and
+                        </p>
+                        <p class="wow animated fadeInDown" data-wow-delay="500ms"> We are sincerely excited to expand our contribution to the successful business of our partners and
                             wellbeing of the Indian society.
                         </p>
-
-
                     </div>
                     <div class="section5_container2">
                     </div>
                 </div>
-
             </section>
             <section class="section service_section1">
                 <div class="content">
                     <div class="service_container1">
-                        <h1  class="wow animated fadeInDown" data-wow-delay="100ms">
+                        <h1 class="wow animated fadeInDown" data-wow-delay="100ms">
                             Sustainable
                             <span>High Quality
                             </span>
                         </h1>
-                        <p 
-                        
-                        class="wow animated fadeInDown" data-wow-delay="200ms">
-                            We dedicate ourselves to the success of our partners</p>
+                        <p class="wow animated fadeInDown" data-wow-delay="200ms">
+                            We dedicate ourselves to the success of our partners
+                        </p>
                     </div>
-                    <div class="service_container2">
+                    <div class="service_container2 wow animated fadeInDown" data-wow-delay="300ms">
                         <img src="images/duru-services.png" alt="duru cooperation services">
                     </div>
                 </div>
             </section>
             <section class="section service_section2">
                 <div class="content">
-
                     <div class="service_section2_container1">
-                        <h2>
+                        <h2 class="wow animated fadeInDown" data-wow-delay="100ms">
                             Recruitment
                             <span>
                                 Priorities for clients’ satisfaction </span>
                         </h2>
                         <div class="service_section2_container2">
-                            <p class="service_section2_container1-para1">History Management</p>
-                            <p class="service_section2_container1-para2">Competitive Rates</p>
-                            <p class="service_section2_container1-para3">Qualified Staff
+                            <p class="service_section2_container1-para1 wow animated fadeInDown" data-wow-delay="200ms">History Management</p>
+                            <p class="service_section2_container1-para2 wow animated fadeInDown" data-wow-delay="300ms">Competitive Rates</p>
+                            <p class="service_section2_container1-para3 wow animated fadeInDown" data-wow-delay="400ms">Qualified Staff
                                 <span>Timely
                                     <br> Reporting
                                 </span>
                             </p>
-                            <p class="service_section2_container1-para4">Fast Process
+                            <p class="service_section2_container1-para4 wow animated fadeInDown" data-wow-delay="500ms">Fast Process
                                 <span>Reliable Line-up</span>
                             </p>
-                            <p class="service_section2_container1-para5">Accurate Information</p>
+                            <p class="service_section2_container1-para5 wow animated fadeInDown" data-wow-delay="600ms">Accurate Information</p>
                         </div>
-                        <button class="start-hiring-button">Start Hiring !</button>
+                        <button class="start-hiring-button wow animated fadeInDown" data-wow-delay="700ms">Start Hiring !</button>
                     </div>
                 </div>
             </section>
             <section class="section service_section3">
                 <div class="content">
                     <div class="service_section3_container1">
-                        <h2>
+                        <h2 class="wow animated fadeInDown" data-wow-delay="100ms">
                             Recruitment -
                             <img src="images/duruper.png" alt="duruper">
                         </h2>
-                        <p>
+                        <p class="wow animated fadeInDown" data-wow-delay="200ms">
                             Duruper
                             <span class="span1">is</span>
                             <span class="span2">Indian Professionals Association</span>
@@ -367,33 +369,32 @@
                             Recruitment Management System
                         </p>
                     </div>
-                    <div class="service_section3_container2">
+                    <div class="service_section3_container2 wow animated fadeInDown" data-wow-delay="300ms">
                         <img src="images/duruper-dashboard.png" alt="duruper-dashboard">
                     </div>
                 </div>
             </section>
             <section class="section service_section4">
                 <div class="content">
-
                     <div class="service_section4_a">
-                        <h2>Recruitment</h2>
+                        <h2 class="wow animated fadeInDown" data-wow-delay="100ms">Recruitment</h2>
                         <div class="service_section4_b">
                             <div class="service_section4_container1">
-                                <div class="service_section4_subcontainer1">
+                                <div class="service_section4_subcontainer1 wow animated fadeInDown" data-wow-delay="200ms">
                                     <img src="images/sourcing.png" alt="Sourcing">
                                     <div class="service_section4_div">
                                         <h4>Sourcing</h4>
                                         <p>Prompt notification system connects with professionals all over India</p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer1">
+                                <div class="service_section4_subcontainer1 wow animated fadeInDown" data-wow-delay="300ms">
                                     <img src="images/candidate-selection.png" alt="Candidate Selection">
                                     <div class="service_section4_div">
                                         <h4>Candidate Selection</h4>
                                         <p>Generates uniform CVsand applicants summary forconvenient selection</p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer1">
+                                <div class="service_section4_subcontainer1 wow animated fadeInDown" data-wow-delay="400ms">
                                     <img src="images/line-up.png" alt="Line-up">
                                     <div class="service_section4_div">
                                         <h4>Line-up</h4>
@@ -401,33 +402,29 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="service_section4_container1">
+                            <div class="service_section4_container1 wow animated fadeInDown" data-wow-delay="500ms">
                                 <div class="service_section4_subcontainer2">
                                     <img src="images/interview.png" alt="Interview">
-
                                     <h4>Interview</h4>
                                     <p>Comprehensive interview procedure with DURUPER recruitment system.</p>
-
                                 </div>
-
                             </div>
                             <div class="service_section4_container1">
-
-                                <div class="service_section4_subcontainer1">
+                                <div class="service_section4_subcontainer1 wow animated fadeInDown" data-wow-delay="600ms">
                                     <img src="images/on-boarding.png" alt="On-Boarding">
                                     <div class="service_section4_div">
                                         <h4>On-Boarding</h4>
                                         <p>File management system and zero agent fee ensure expedited on-boarding</p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer1">
+                                <div class="service_section4_subcontainer1 wow animated fadeInDown" data-wow-delay="700ms">
                                     <img src="images/report.png" alt="Report">
                                     <div class="service_section4_div">
                                         <h4>Report</h4>
                                         <p>Real-time updates for recruitment and on-boarding status</p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer1">
+                                <div class="service_section4_subcontainer1 wow animated fadeInDown" data-wow-delay="800ms">
                                     <img src="images/history.png" alt="History">
                                     <div class="service_section4_div">
                                         <h4>History</h4>
@@ -443,53 +440,52 @@
             <section class="section service_section5">
                 <div class="content">
                     <div class="service_section5_container1">
-                        <h2>Recruitment
+                        <h2 class="wow animated fadeInDown" data-wow-delay="100ms">Recruitment
                             <span>Benefits</span>
                         </h2>
                     </div>
                     <div class="service_section5_container2">
-                        <p class="para1">ULTIMATE SOURCING ABILITY</p>
-                        <p class="para2">QUALIFIED CANDIDATES</p>
-                        <p class="para3">FAST RECRUITMENT PROCESS</p>
-                        <p class="para4">ZERO CORRUPTION
+                        <p class="para1 wow animated fadeInDown" data-wow-delay="200ms">ULTIMATE SOURCING ABILITY</p>
+                        <p class="para2 wow animated fadeInDown" data-wow-delay="300ms">QUALIFIED CANDIDATES</p>
+                        <p class="para3 wow animated fadeInDown" data-wow-delay="400ms">FAST RECRUITMENT PROCESS</p>
+                        <p class="para4 wow animated fadeInDown" data-wow-delay="500ms">ZERO CORRUPTION
                             <span>RELIABLE LINE-UP</span>
                         </p>
-                        <p class="para5">
+                        <p class="para5 wow animated fadeInDown" data-wow-delay="600ms">
                             <span class="para5_span1">COMPETITIVE PRICING
                             </span>
                             <span class="para5_span2">HIGH QUALITY
                                 <br> PERIODICAL REPORT</span>
                         </p>
-                        <p class="para6">RECRUITMENT
-                            <br>HISTORY MANAGEMENT</p>
-                        <button class="clearfix start-hiring-button">Start Hiring !</button>
+                        <p class="para6 wow animated fadeInDown" data-wow-delay="700ms">RECRUITMENT
+                            <br>HISTORY MANAGEMENT
+                        </p>
+                        <button class="clearfix start-hiring-button wow animated fadeInDown" data-wow-delay="800ms">Start Hiring !</button>
                     </div>
                 </div>
             </section>
             <section class="section service_section6">
                 <div class="content">
                     <div class="service_section6_container1">
-                        <h3>Legal Compliance</h3>
-                        <p class="service_section6_para1">Duru's ERP system, in line with global business ethics ensures sound conduct. </p>
-
-                        <p class="service_section6_para2">Foreign exchange management </p>
-                        <p class="service_section6_para3"> Personal legal compliance </p>
-                        <p class="service_section6_para4"> Company registration </p>
-                        <p class="service_section6_para5">Accounting & Finance </p>
-                        <p class="service_section6_para6">Taxation & Auditing </p>
-                        <button class="avail-services">Avail Our Services</button>
+                        <h3 class="wow animated fadeInDown" data-wow-delay="100ms">Legal Compliance</h3>
+                        <p class="service_section6_para1 wow animated fadeInDown" data-wow-delay="100ms">Duru's ERP system, in line with global business ethics ensures sound conduct. </p>
+                        <p class="service_section6_para2 wow animated fadeInDown" data-wow-delay="200ms">Foreign exchange management </p>
+                        <p class="service_section6_para3 wow animated fadeInDown" data-wow-delay="300ms"> Personal legal compliance </p>
+                        <p class="service_section6_para4 wow animated fadeInDown" data-wow-delay="400ms"> Company registration </p>
+                        <p class="service_section6_para5 wow animated fadeInDown" data-wow-delay="500ms">Accounting & Finance </p>
+                        <p class="service_section6_para6 wow animated fadeInDown" data-wow-delay="600ms">Taxation & Auditing </p>
+                        <button class="avail-services wow animated fadeInDown" data-wow-delay="700ms">Avail Our Services</button>
                     </div>
                 </div>
             </section>
             <section class="section service_section4">
                 <div class="content">
-
                     <div class="service_section4_a">
-                        <h2>Legal Compliance
+                        <h2 class="wow animated fadeInDown" data-wow-delay="100ms">Legal Compliance
                         </h2>
                         <div class="service_section4_b">
                             <div class="service_section4_container1">
-                                <div class="service_section4_subcontainer4">
+                                <div class="service_section4_subcontainer4 wow animated fadeInDown" data-wow-delay="200ms">
                                     <img src="images/icon1.png" alt="Personal Legal Compliance">
                                     <div class="service_section4_div">
                                         <h4>Personal Legal Compliance</h4>
@@ -497,46 +493,51 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer4">
+                                <div class="service_section4_subcontainer4 wow animated fadeInDown" data-wow-delay="300ms">
                                     <img src="images/icon4.png" alt="Accounting and Finance">
                                     <div class="service_section4_div">
                                         <h4>Accounting and Finance</h4>
                                         <p>Keep track of your accounts with effecientBook Keeping, Payroll, Financial Statements,MIS
-                                            Report services </p>
+                                            Report services
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer4">
+                                <div class="service_section4_subcontainer4 wow animated fadeInDown" data-wow-delay="400ms">
                                     <img src="images/icon6.png" alt="Foreign Exchange Management">
                                     <div class="service_section4_div">
                                         <h4>Foreign Exchange Management</h4>
                                         <p>Avail our services for all types of Inbound and Outbound Investments (FDI, ECBs,
-                                            FCCB, GDR, ODI) Establishment in India (Branch, Liaison, Project, JV)</p>
+                                            FCCB, GDR, ODI) Establishment in India (Branch, Liaison, Project, JV)
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="service_section4_container1">
-                                <div class="service_section4_subcontainer4">
+                                <div class="service_section4_subcontainer4 wow animated fadeInDown" data-wow-delay="500ms">
                                     <img src="images/icon3.png" alt="Company Registration">
                                     <div class="service_section4_div">
                                         <h4>Company Registration</h4>
                                         <p>Register and manage your business easily with services like Company Incorporation,
-                                            IEC,Trade License, Shops & Establishment, EPF, ESI</p>
+                                            IEC,Trade License, Shops & Establishment, EPF, ESI
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer4">
+                                <div class="service_section4_subcontainer4 wow animated fadeInDown" data-wow-delay="600ms">
                                     <img src="images/icon5.png" alt="Taxation and Auditing">
                                     <div class="service_section4_div">
                                         <h4>Taxation and Auditing</h4>
                                         <p>We help you with your Tax Planning, Income Tax, International Taxation, Expatriate
-                                            Taxation, Professional Tax, GST, and TDS</p>
+                                            Taxation, Professional Tax, GST, and TDS
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="service_section4_subcontainer4">
+                                <div class="service_section4_subcontainer4 wow animated fadeInDown" data-wow-delay="700ms">
                                     <img src="images/icon2.png" alt="Corporate and Allied Law Advisory">
                                     <div class="service_section4_div">
                                         <h4>Corporate and Allied Law Advisory</h4>
                                         <p>Our team also offers expertise in Annual Filing, M&A, Right Issue, Private Placement,
-                                            ESOPs, Share Certification, Listing Compliances and Board Meetings</p>
+                                            ESOPs, Share Certification, Listing Compliances and Board Meetings
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -547,50 +548,47 @@
                     <div class="service_section7_container1">
                     </div>
                     <div class="service_section7_container2">
-                        <h3>Branding</h3>
-                        <p class="service_section7_para1">Simple, creative and modern designs to promote your brand</p>
-                        <p class="service_section7_para2">Company Logo</p>
-                        <p class="service_section7_para3">Brochure</p>
-                        <p class="service_section7_para4">Signage</p>
-                        <p class="service_section7_para5">Marketing Collateral</p>
-                        <button class="create_new">Create new</button>
+                        <h3 class="wow animated fadeInDown" data-wow-delay="100ms">Branding</h3>
+                        <p class="service_section7_para1 wow animated fadeInDown" data-wow-delay="200ms">Simple, creative and modern designs to promote your brand</p>
+                        <p class="service_section7_para2 wow animated fadeInDown" data-wow-delay="300ms">Company Logo</p>
+                        <p class="service_section7_para3 wow animated fadeInDown" data-wow-delay="400ms">Brochure</p>
+                        <p class="service_section7_para4 wow animated fadeInDown" data-wow-delay="500ms">Signage</p>
+                        <p class="service_section7_para5 wow animated fadeInDown" data-wow-delay="600ms">Marketing Collateral</p>
+                        <button class="create_new wow animated fadeInDown" data-wow-delay="700ms">Create new</button>
                     </div>
                 </div>
             </section>
             <section class="section service_section8">
                 <div class="content">
                     <div class="service_section7_container1">
-                        <h3>CSR Service</h3>
-                        <h4>Strengthen your businesses <span> contributing to society!</span></h4>
-                        <p>India Company Act 2013, Section 135, Sub section 1
+                        <h3 class="wow animated fadeInDown" data-wow-delay="100ms">CSR Service</h3>
+                        <h4 class="wow animated fadeInDown" data-wow-delay="200ms">Strengthen your businesses
+                            <span> contributing to society!</span>
+                        </h4>
+                        <p class="wow animated fadeInDown" data-wow-delay="300ms">India Company Act 2013, Section 135, Sub section 1
                             <span> Corporate’s CSR Responsibility:</span>2 per cent of the 3 years average net profits
                         </p>
-                        <button class="contribute">Contribute</button>
+                        <button class="contribute wow animated fadeInDown" data-wow-delay="400ms">Contribute</button>
                     </div>
                 </div>
             </section>
             <section class="section service_section9">
                 <div class="content">
                     <div class="service_section9_main">
-                        <h3>CSR Service</h3>
-                       
-                        <p class="service_section9_para1">Maximise the outcome of your CSR initiatives with Duru</p>
+                        <h3 class="wow animated fadeInDown" data-wow-delay="100ms">CSR Service</h3>
+                        <p class="service_section9_para1 wow animated fadeInDown" data-wow-delay="200ms">Maximise the outcome of your CSR initiatives with Duru</p>
                         <div class="service_section9_container">
-                             
-                            <div class="service_section9_subcontainer">
-
+                            <div class="service_section9_subcontainer wow animated fadeInDown" data-wow-delay="300ms">
                                 <img src="images/csr-services-1.png" alt="Scholarships">
                                 <p class="service_section9_para2 color1">Scholarships</p>
                                 <p class="service_section9_para3">Support meritorious students and lead them to your company</p>
                             </div>
-                            <div class="service_section9_subcontainer">
-
+                            <div class="service_section9_subcontainer wow animated fadeInDown" data-wow-delay="400ms">
                                 <img src="images/csr-services-2.png" alt="Talks">
                                 <p class="service_section9_para2">Talks</p>
                                 <p class="service_section9_para3">Connect with potential clients through Duru's interactive seminars</p>
                             </div>
-                            <div class="service_section9_subcontainer">
-
+                            <div class="service_section9_subcontainer wow animated fadeInDown" data-wow-delay="500ms">
                                 <img src="images/csr-services-3.png" alt="Cultural Exchange">
                                 <p class="service_section9_para2">Cultural Exchange</p>
                                 <p class="service_section9_para3">Partake in Duru's cultural exchange events as a valued sponsor</p>
@@ -602,38 +600,36 @@
             <section class="section service_section10">
                 <div class="content">
                     <div class="service_section10_container1">
-                        <h3>Duru
+                        <h3 class="wow animated fadeInDown" data-wow-delay="100ms">Duru
                             <span class="span1">is</span>
                             <span class="span2">Satisfaction</span>
                         </h3>
-                        <button class="contact-us1"><a href="#contactus">Contact us</a> </button>
+                        <button class="contact-us1 wow animated fadeInDown" data-wow-delay="200ms">
+                            <a href="#contactus">Contact us</a>
+                        </button>
                     </div>
-                    <div class="service_section10_container2">
+                    <div class="service_section10_container2 wow animated fadeInDown" data-wow-delay="300ms">
                         <img src="images/duru-smile.png" alt="Duru smile">
-
                     </div>
                 </div>
             </section>
             <section class="section section6">
                 <div class="content">
-                    <div class="section6_container1">
+                    <div class="section6_container1 wow animated fadeInDown" data-wow-delay="100ms">
                         <h3>Contact</h3>
                         <div>
-
                             <p> No. 7 & 8, Shakthi Nagar Main Road, Horamavu,
                                 <br> ORR Banaswadi, Bengaluru,
                                 <br> karnataka, India-560043</p>
                         </div>
                         <div>
                             <p>
-
-                                <a href="">+91-80-4371-4311</a> /
-                                <a href="">+82-70-4045-3215</a>
+                                <a href="tel:+91-80-4371-4311">+91-80-4371-4311</a> /
+                                <a href="tel:+82-70-4045-3215">+82-70-4045-3215</a>
                             </p>
                         </div>
                         <div>
                             <p>
-
                                 <a href="mailto:info@durucooperation.com">info@durucooperation.com</a>
                             </p>
                         </div>
@@ -657,7 +653,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="section6_container2">
+                    <div class="section6_container2 wow animated fadeInDown" data-wow-delay="200ms">
                         <form action="">
                             <input type="text" placeholder="Name*" class="section6_input">
                             <input type="text" placeholder="Company*" class="section6_input section6_input1">
@@ -666,6 +662,9 @@
                             <input type="email" placeholder="Email*" class=" section6_input section6_input2">
                             <input type="text" placeholder="Subject" class="section6_input">
                             <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <p class="display-none success-msg">Your request is registered and the process will be started shortly </p>
+                            <p class="display-none error-msg">Please fill all the above fields </p>
+                            <p class="display-none error-msg">Something went wrong try again </p>
                             <button class="send">Send</button>
                         </form>
                     </div>
@@ -674,115 +673,122 @@
             </div>
             </div>
             <div id="create-popup" class="popup-overlay">
-                    <div class="popup">
-                            <h3>Please inform us your requirements	</h3>
-                            <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-                            
-                        <form>
-                                <input type="text" placeholder="Company name" class="popup_input">
-                                <input type="text" placeholder="Company Type (Head Office or Branch)" class="popup_input">
-                                <input type="text" placeholder="Industry" class="popup_input">
-                                <input type="text" placeholder="country" class="popup_input">
-                                <input type="text" placeholder="Name" class="popup_input">
-                                <input type="text" placeholder="Designation" class="popup_input">
-                                <input type="text" placeholder="Mobile" class="popup_input ">
-                                <input type="email" placeholder="Email" class=" popup_input ">
-                               
-                                                 
-                               <p class="display-none">Your request is registered and the process will be started shortly	</p>
-                                <button class="form-button">Submit</button>
-                        </form>
-                    </div>
-            </div>
-<div id="services-popup" class="popup-overlay">
-        <div class="popup">
-                <h3>Please inform us your requirements	</h3>
-                <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-                
-            <form>
-                    <input type="text" placeholder="Company name" class="popup_input">
-                    <input type="text" placeholder="Company Type (Head Office or Branch)" class="popup_input">
-                    <input type="text" placeholder="Industry" class="popup_input">
-                    <input type="text" placeholder="country" class="popup_input">
-                    <input type="text" placeholder="Name" class="popup_input">
-                    <input type="text" placeholder="Designation" class="popup_input">
-                    <input type="text" placeholder="Mobile" class="popup_input ">
-                    <input type="email" placeholder="Email" class=" popup_input ">
-                    <input type="text" placeholder="position" class="popup_input ">
-                    <input type="text" placeholder="Number of Requirement 1 " class="popup_input "> 
-                    <!-- <div>Add</div> -->
-                                     
-                   <p class="display-none">Your request is registered and the process will be started shortly	</p>
-                    <button class="form-button">Submit</button>
-            </form>
-        </div>
-</div>
-
-<div id="lc-popup" class="popup-overlay">
-        <div class="popup">
-                <h3>Please inform us your requirements	</h3>
-                <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-                
-            <form>
-                    <input type="text" placeholder="Company name" class="popup_input">
-                    <input type="text" placeholder="Industry" class="popup_input">
-                    <input type="text" placeholder="Country" class="popup_input">
-                    <input type="text" placeholder="city" class="popup_input">
-                    <input type="text" placeholder="Name" class="popup_input">
-                    <input type="text" placeholder="Designation" class="popup_input">
-                    <input type="text" placeholder="Mobile" class="popup_input ">
-                    <input type="email" placeholder="Email" class=" popup_input ">
-                    <textarea  placeholder="Requirements" name="" id="" cols="30" rows="10"></textarea>
-                  
-                   <p class="display-none">Duru will contact you shortly	</p>
-                    <button class="form-button">Submit</button>
-            </form>
-        </div>
-    </div>
-    <div id="branding-popup" class="popup-overlay">
-            <div class="popup">
-                <h3>Please inform us your requirements	</h3>
-                <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-                
-            <form>
-                    <input type="text" placeholder="Company name" class="popup_input">
-                    <input type="text" placeholder="Industry" class="popup_input">
-                    <input type="text" placeholder="Country" class="popup_input">
-                    <input type="text" placeholder="city" class="popup_input">
-                    <input type="text" placeholder="Name" class="popup_input">
-                    <input type="text" placeholder="Designation" class="popup_input">
-                    <input type="text" placeholder="Mobile" class="popup_input ">
-                    <input type="email" placeholder="Email" class=" popup_input ">
-                    <textarea  placeholder="Requirements" name="" id="" cols="30" rows="10"></textarea>
-                  
-                   <p class="display-none">Duru will contact you shortly	</p>
-                    <button class="form-button">Submit</button>
-            </form>
-        </div>
-        </div>
-        <div id="csr-popup" class="popup-overlay">
                 <div class="popup">
-                        <h3>Please inform us your requirements	</h3>
-                        <div class="close-icon"><img src="images/cross.png" alt="close icon"></div>
-                        
+                    <h3>Please inform us your requirements </h3>
+                    <div class="close-icon">
+                        <img src="images/cross.png" alt="close icon">
+                    </div>
                     <form>
-                            <input type="text" placeholder="Company name" class="popup_input">
-                            <input type="text" placeholder="Industry" class="popup_input">
-                            <input type="text" placeholder="Country" class="popup_input">
-                            <input type="text" placeholder="city" class="popup_input">
-                            <input type="text" placeholder="Name" class="popup_input">
-                            <input type="text" placeholder="Designation" class="popup_input">
-                            <input type="text" placeholder="Mobile" class="popup_input ">
-                            <input type="email" placeholder="Email" class=" popup_input ">
-                            <textarea  placeholder="Donation Plan (if any)	" ></textarea>
-                          
-                           <p class="display-none">Duru will contact you shortly	</p>
-                            <button class="form-button">Submit</button>
+                        <input type="text" placeholder="Company name" class="popup_input">
+                        <input type="text" placeholder="Company Type (Head Office or Branch)" class="popup_input">
+                        <input type="text" placeholder="Industry" class="popup_input">
+                        <input type="text" placeholder="country" class="popup_input">
+                        <input type="text" placeholder="Name" class="popup_input">
+                        <input type="text" placeholder="Designation" class="popup_input">
+                        <input type="text" placeholder="Mobile" class="popup_input ">
+                        <input type="email" placeholder="Email" class=" popup_input ">
+                        <p class="display-none">Your request is registered and the process will be started shortly </p>
+                        <p class="display-none error-msg">Please fill all the above fields </p>
+                        <p class="display-none error-msg">Something went wrong try again </p>
+                        <button class="form-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div id="services-popup" class="popup-overlay">
+                <div class="popup">
+                    <h3>Please inform us your requirements </h3>
+                    <div class="close-icon">
+                        <img src="images/cross.png" alt="close icon">
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Company name" class="popup_input">
+                        <input type="text" placeholder="Company Type (Head Office or Branch)" class="popup_input">
+                        <input type="text" placeholder="Industry" class="popup_input">
+                        <input type="text" placeholder="country" class="popup_input">
+                        <input type="text" placeholder="Name" class="popup_input">
+                        <input type="text" placeholder="Designation" class="popup_input">
+                        <input type="text" placeholder="Mobile" class="popup_input ">
+                        <input type="email" placeholder="Email" class=" popup_input ">
+                        <input type="text" placeholder="position" class="popup_input ">
+                        <input type="text" placeholder="Number of Requirement 1 " class="popup_input ">
+                        <!-- <div>Add</div> -->
+                        <p class="display-none">Your request is registered and the process will be started shortly </p>
+                        <p class="display-none error-msg">Please fill all the above fields </p>
+                        <p class="display-none error-msg">Something went wrong try again </p>
+                        <button class="form-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div id="lc-popup" class="popup-overlay">
+                <div class="popup">
+                    <h3>Please inform us your requirements </h3>
+                    <div class="close-icon">
+                        <img src="images/cross.png" alt="close icon">
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Company name" class="popup_input">
+                        <input type="text" placeholder="Industry" class="popup_input">
+                        <input type="text" placeholder="Country" class="popup_input">
+                        <input type="text" placeholder="city" class="popup_input">
+                        <input type="text" placeholder="Name" class="popup_input">
+                        <input type="text" placeholder="Designation" class="popup_input">
+                        <input type="text" placeholder="Mobile" class="popup_input ">
+                        <input type="email" placeholder="Email" class=" popup_input ">
+                        <textarea placeholder="Requirements" name="" id="" cols="30" rows="10"></textarea>
+                        <p class="display-none">Duru will contact you shortly </p>
+                        <p class="display-none error-msg">Please fill all the above fields </p>
+                        <p class="display-none error-msg">Something went wrong try again </p>
+                        <button class="form-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div id="branding-popup" class="popup-overlay">
+                <div class="popup">
+                    <h3>Please inform us your requirements </h3>
+                    <div class="close-icon">
+                        <img src="images/cross.png" alt="close icon">
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Company name" class="popup_input">
+                        <input type="text" placeholder="Industry" class="popup_input">
+                        <input type="text" placeholder="Country" class="popup_input">
+                        <input type="text" placeholder="city" class="popup_input">
+                        <input type="text" placeholder="Name" class="popup_input">
+                        <input type="text" placeholder="Designation" class="popup_input">
+                        <input type="text" placeholder="Mobile" class="popup_input ">
+                        <input type="email" placeholder="Email" class=" popup_input ">
+                        <textarea placeholder="Requirements" name="" id="" cols="30" rows="10"></textarea>
+                        <p class="display-none">Duru will contact you shortly </p>
+                        <p class="display-none error-msg">Please fill all the above fields </p>
+                        <p class="display-none error-msg">Something went wrong try again </p>
+                        <button class="form-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div id="csr-popup" class="popup-overlay">
+                <div class="popup">
+                    <h3>Please inform us your requirements </h3>
+                    <div class="close-icon">
+                        <img src="images/cross.png" alt="close icon">
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Company name" class="popup_input">
+                        <input type="text" placeholder="Industry" class="popup_input">
+                        <input type="text" placeholder="Country" class="popup_input">
+                        <input type="text" placeholder="city" class="popup_input">
+                        <input type="text" placeholder="Name" class="popup_input">
+                        <input type="text" placeholder="Designation" class="popup_input">
+                        <input type="text" placeholder="Mobile" class="popup_input ">
+                        <input type="email" placeholder="Email" class=" popup_input ">
+                        <textarea placeholder="Donation Plan (if any)	"></textarea>
+                        <p class="display-none">Duru will contact you shortly </p>
+                        <p class="display-none error-msg">Please fill all the above fields </p>
+                        <p class="display-none error-msg">Something went wrong try again </p>
+                        <button class="form-button">Submit</button>
                     </form>
                 </div>
             </div>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQG86PLLfQqtZV2vfXurB9UpuPeDK7f5o"></script>
-
             <script>
                 google.maps.event.addDomListener(window, 'load', init);
 
@@ -792,7 +798,7 @@
                         scrollwheel: false,
                         draggable: false,
 
-                        center: new google.maps.LatLng(13.025394, 77.667617), // Plash
+                        center: new google.maps.LatLng(13.025394, 77.667617), // Duru
 
 
                         styles: [{
@@ -850,12 +856,10 @@
                     var marker = new google.maps.Marker({
                         position: new google.maps.LatLng(13.025394, 77.667617),
                         map: map,
-                        title: 'Duru cooperation'
+                        title: 'Duru Cooperation'
                     });
                 }
             </script>
-
-
 </body>
 
 </html>
