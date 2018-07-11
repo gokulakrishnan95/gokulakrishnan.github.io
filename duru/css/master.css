@@ -244,6 +244,9 @@ color:red;
     transform: rotate(0deg);
     height: 25px;
 }
+.section3_container1{
+    width:100%;
+}
 .close-icon:hover{
     transform: rotate(180deg);
 }
@@ -525,6 +528,8 @@ color:red;
 
 .service_cards {
     display: flex;
+    justify-content: center;
+
 }
 
 .card {
