@@ -3057,6 +3057,8 @@ letter-spacing: auto;
     }
     #fullpage{
         padding-top: 110px;
+        overflow-y: scroll !important;
+        height: 100vh !important;
     }
 }
 @media (min-width:1366px) and (max-width:1440px){
