@@ -36,6 +36,9 @@
     <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
     <script>
         $(document).ready(function () {
+            if(window.innerWidth>1023){
+console.log("sdfsdf");
+           
             $('#fullpage').fullpage({
                 verticalCentered: true,
                 responsiveWidth: 1023,
@@ -47,13 +50,19 @@
                 menu: '#top-menu',
                 scrollOverflow: true,
                 scrollBar: true,
+                
 
                 // lockAnchors:true
                 afterLoad: function (anchorLink, index) {
                     history.pushState(null, null, "index.html");
                 }
+
             });
 
+        }
+        else{
+
+        }
             $('.scroll-link').click(function (e) {
                 $('body,html').animate({
                     scrollTop: $('#sec1').offset().top - 20
