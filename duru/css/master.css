@@ -405,7 +405,7 @@ color:red;
 .container1 p {
     font-family: HelveticaLTStd-Light;
     color: #212c3c;
-    font-size: 30px;
+    font-size: 24px;
     margin-top: 20px;
 
 }
@@ -1454,11 +1454,14 @@ button{
     display: block;
 }
 .container1 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .h1-span1{
-    font-size: 36px;
+    font-size: 26px;
 
+}
+.section1{
+    background: none;
 }
 .contact-us {
    font-size: 14px;
@@ -1467,20 +1470,22 @@ button{
     display: block;
 }
 .container2 {
-    width: 285px;
+    width: 100%;
    margin: 25px auto;
+   margin-bottom:65px;
 }
 .section2_container1 h2{
-font-size: 40px;
+font-size: 30px;
 padding-top: 10px;
 letter-spacing: auto;
 }
 .section2_container2 h3{
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 0;
 }
 .section2_container2 {
     padding-left: 0;
+    width: 100%;
 }
 .section2 {
     background: url(../images/duru-workplace.png);
@@ -1493,12 +1498,12 @@ letter-spacing: auto;
 }
 .section2_container2 p {
     padding-bottom: 20px;
-    font-size: 24px;
+    font-size: 20px;
    
 }
 .section3_container1 h2 {
   
-    font-size: 38px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -1506,17 +1511,22 @@ letter-spacing: auto;
     display: block;
 }
 .card {
-    max-width: 47%;
-
-    height: 245px;
-   
+    max-width: 46%;
+    height: auto;
     float: left;
+    margin-bottom: 20px;
+}
+.fp-scrollable{
+    height: auto !important;
+}
+.logo {
+    width: 150px;
 }
 .card img {
     height: auto;
 }
 .card h4 {
-  
+    top: 10px;
     /* top: 63px; */
     font-size: 14px;
 }
@@ -1527,7 +1537,7 @@ letter-spacing: auto;
     font-size: 12px;
 }
 .section4_container1 h3 {
-    font-size: 38px;
+    font-size: 30px;
     margin-top: 20px;
     color: #ffffff;
 
@@ -1536,7 +1546,7 @@ letter-spacing: auto;
     letter-spacing: 0;
    margin-top: 16px;
     color: #ffffff;
-     font-size: 24px;
+     font-size: 18px;
     width: 100%;
 }
 .section4 {
@@ -1549,24 +1559,30 @@ letter-spacing: auto;
     margin-bottom: 15px;
 }
 .section4_container2 h4 {
-    font-size: 38px;
+    font-size: 30px;
    
     
 }
 .section4_container2 h5 {
     
-    font-size: 30px;
+    font-size: 24px;
    margin-top: 16px;
 }
 .section4_container2 p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .section4_container2{
       margin-bottom: 20px;
   }
+  .section5_container1 p {
+    margin-top: 12px;
+    font-size: 14px;
+    
+  
+}
   .section5_container1 h3 {
    
-    font-size: 24px;
+    font-size: 18px;
    margin-top: 40px;
 }
 .section5_container1 {
@@ -1578,10 +1594,10 @@ letter-spacing: auto;
     margin-top: 20px;
 }
 .service_container1 h1 {
-    font-size: 50px;
+    font-size: 35px;
 }
 .service_container1 p {
-    font-size: 24px;
+    font-size: 18px;
 }
 .service_container2 img {
     width: 135px;
@@ -1594,34 +1610,39 @@ letter-spacing: auto;
     width: 100%;
     margin-top: 20px;
 }
+.service_section2_container1 h2 span {
+   
+    font-size: 18px;
+   
+}
 .service_section2_container1 h2 {
  
-    font-size: 40px;
+    font-size: 18px;
    
     padding-top: 20px;
 }
 .service_section2_container1-para1 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 18px;
 }
 .service_section2_container1-para2 {
-    font-size: 26px;
+    font-size: 18px;
 }
 .service_section2_container1-para3 {
-    font-size: 28px;
+    font-size: 24px;
     text-align: right;
 }
 .service_section2_container1-para3 span {
-    font-size: 32px;
+    font-size: 24px;
     text-align: right;
    position: relative;
     margin-left: 10px;
     display: block;
 }
 .service_section2_container1-para4 {
-     font-size: 22px;
+    font-size: 18px;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .service_section2_container1-para4 span {
    font-size: 20px;
@@ -1642,9 +1663,12 @@ letter-spacing: auto;
    
 }
 .service_section3_container1 h2 {
-    font-size: 42px;
+    font-size: 30px;
     margin-top: 40px;
    
+}
+.service_section3_container1 h2 img {
+    height: 30px;
 }
 .service_section3_container1 p {
     font-size: 20px;
@@ -1667,17 +1691,14 @@ letter-spacing: auto;
     margin-left: 0;
 }
 .service_section3 {
-    background: url(../images/philosophy.png);
-    background-size: 91% 47%;
+    background-size: 91% 40%;
     background-position: bottom right;
-    background-repeat: no-repeat;
+    
 }
 .service_section4 h2 {
-    font-family: HelveticaLTStd-Bold;
-    font-size: 42px;
+    font-size: 30px;
     width: 100%;
-    color: #222c3c;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .service_section4_b {
     display: block;
@@ -1688,13 +1709,16 @@ letter-spacing: auto;
     background: none;
 }
 .service_section4_subcontainer2 {
-    margin-top: 35px;
+    margin-top: 15px;
     width: 100%;
     text-align: center;
 }
+.service_section4_subcontainer2 img{
+    width:50px;
+}
 .service_section4_subcontainer2 p ,.service_section4_subcontainer2 h4{
     
-    font-size: 20px;
+    font-size: 12px;
    
 }
 .service_section5_container1, .service_section5_container2 {
@@ -1704,23 +1728,23 @@ letter-spacing: auto;
     background: none;
 }
 .service_section5_container1 h2 {
-    font-size: 38px;
+    font-size: 30px;
    
     color: #222c3c;
 }
 .service_section5_container1 h2 span {
-    font-size: 40px;
+    font-size: 30px;
 }
 .service_section5_container1{
     margin-top: 40px;
 }
 .para1 {
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0px;
     margin-top: 10px;   
    }
    .para2 {
-    font-size: 24px;
+    font-size: 20px;
    text-align: left;
    margin-top: 5px;
     color: #6d6e71;
@@ -1728,15 +1752,15 @@ letter-spacing: auto;
 }
 .para3 {
     margin-top: 5px;
-     font-size: 18px;
+     font-size: 14px;
   }
   .para4{
     margin-top: 5px;
-      font-size: 20px;
+      font-size: 16px;
       text-align: left;
   }
   .para4 span {
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 5px;
     margin-right: 0;
    display: block;
@@ -1746,7 +1770,7 @@ letter-spacing: auto;
     display: block;
 }
 .para5_span1 {
-    font-size: 22px;
+    font-size: 18px;
     text-align: left;
    
     width: 100%;
@@ -1754,13 +1778,13 @@ letter-spacing: auto;
     margin-top: 5px;
 }
 .para5_span2 {
-    font-size: 22px;
+    font-size: 18px;
     text-align: left;
     margin-top: 5px;
     width: 100%;
 }
 .para6 {
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
     float: none;
     margin-top: 5px;
@@ -1768,8 +1792,17 @@ letter-spacing: auto;
 .service_section6_container1 {
     width: 100%;
 }
+.service_section4_subcontainer4 h4 {
+    font-size: 16px;
+}
+.service_section4_subcontainer4 p {
+    font-size: 12px;
+}
+.service_section4_subcontainer4 img{
+    width: 50px;
+}
 .service_section6_container1 h3 {
-    font-size: 22px;
+    font-size: 30px;
     margin-top: 40px;
 }
 .service_section6_para1 {
@@ -1809,7 +1842,7 @@ letter-spacing: auto;
     margin-top: 40px;
 }
 .service_section7_container2 h3 {
-    font-size: 38px;
+    font-size: 30px;
     text-align: left;
     padding-left: 0;
 }
@@ -1822,7 +1855,7 @@ letter-spacing: auto;
     text-indent: 0;
 }
 .service_section7_para2, .service_section7_para3, .service_section7_para4, .service_section7_para5 {
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
     padding: 0;
 }
@@ -1844,10 +1877,10 @@ letter-spacing: auto;
     width: 100%;
 }
 .service_section7_container1 h3 {
-    font-size: 38px;
+    font-size: 30px;
 }
 .service_section7_container1 h4 {
-    font-size: 18px;
+    font-size: 16px;
    
     margin-top: 10px;
 }
@@ -1864,14 +1897,14 @@ letter-spacing: auto;
     display: block;
 }
 .service_section9 h3 {
-    font-size: 42px;
+    font-size: 30px;
     text-align: left;
 
     margin-top: 40px;
 }
 .service_section9_para1 {
    
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 8px;
    
 }
@@ -1891,19 +1924,21 @@ letter-spacing: auto;
     object-fit: cover;
 }
 .service_section9_para2 {
-  
-    font-size: 18px;
-   
-    top: 16px;
+    font-size: 16px;
+    bottom: 19px;
+
    
 }
 .service_section9_para3 {
-    font-size: 18px;
+    font-size: 16px;
      bottom: 24px;
 }
 .service_section10_container1 h3 {
-    font-size: 50px;
+    font-size: 30px;
   
+}
+.service_section10_container2 {
+    margin: 0px;
 }
 .service_section10_container1 .span1 {
     font-size: 26px;
@@ -1916,17 +1951,17 @@ letter-spacing: auto;
     float: none;
 }
 .service_section10_container2 img{
-    width: 200px;
+    width: 145px;
     margin: 0 auto;
     display: block;
     margin-top: 20px;
 }
 .section6_container1 h3 {
-    font-size: 38px;
+    font-size: 30px;
     margin-top: 40px;
 }
 .section6_container1 p, .section6_container1 a {
-    font-size: 14px;
+    font-size: 12px;
    
     margin-bottom: 5px;
 }
@@ -1939,6 +1974,17 @@ letter-spacing: auto;
     width: 100%;
     padding-top: 25px;
 }
+.service_section4_subcontainer1 img{
+
+    width: 50px;
+}
+.service_section4_subcontainer1 p {
+    font-size: 12px;
+}
+.service_section4_subcontainer1 h4 {
+   
+    font-size: 16px;
+}
 .section6_input {
     margin-left: 0;
     width: 100%;}
@@ -1948,6 +1994,7 @@ letter-spacing: auto;
     .service_section4_subcontainer1{
         width: 100%;
         align-items: end;
+        margin-top: 15px;
     }
 }
 
@@ -2988,6 +3035,9 @@ letter-spacing: auto;
         height: 38px;
     }
     .scroll-down {
+        
+     padding-top: 80px;
+
         position: relative;
         padding-top: 40px;
         display: flex;
