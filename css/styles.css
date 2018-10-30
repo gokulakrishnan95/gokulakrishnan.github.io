@@ -118,3 +118,6 @@ section{border-bottom:1px solid rgba(132, 132, 132, 0.2);}
 .personal_info, .resume{padding:50px 0;}
 .hero{background-position:92% 48%;}
 }
+.LI-badge-container.horizontal.dark {
+    width: 100% !important;
+}
