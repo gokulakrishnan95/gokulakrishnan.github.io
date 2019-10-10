@@ -5,18 +5,6 @@ $(document).ready(function () {
 
     $(".menu").toggleClass("display_toggle");
     })    
-    var ua = navigator.userAgent,
-    browser = {
-        iPad: /iPad/.test(ua),
-        iPhone: /iPhone/.test(ua),
-        Android: /Android/.test(ua)
-    };
-    if(browser.Android) { 
-    alert("you are using andriod device");
-    } else {
-            alert("you are using non andriod device");
-
-    }
         
 });
 
