@@ -2,9 +2,6 @@
 $(document).ready(function () {
     $("#sticker").sticky({ topSpacing: 0 });
    $(".fa-bars").click(function(){
-
-    $(".menu").toggleClass("display_toggle");
-    })    
    if (navigator.share) {
   navigator.share({
       title: 'Web Fundamentals',
@@ -13,6 +10,9 @@ $(document).ready(function () {
   })
     .then(() => alert('Successful share'))
     .catch((error) => alert('Error sharing', error));
+    $(".menu").toggleClass("display_toggle");
+    })    
+
 }     
 });
 
